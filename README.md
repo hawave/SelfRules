@@ -4,7 +4,7 @@ Rules for CFW or CFA.
 
 ❗ ONLY USE BY SELF. You can't share without me. ❗
 
-👉 Copy URL I gave you(it should have Token in the last of URL), paste in the URL bar of Clash, then click download. 👈
+👉 Copy URL I gave you(it should have Token in the last of URL), paste in the URL bar of Clash, then click download.
 
 Create by hawave. Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
 
