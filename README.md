@@ -6,7 +6,7 @@ Rules for CFW or CFA.
 
 👉 Copy URL I gave you(it should have Token in the last of URL), paste in the URL bar of Clash, then click download.
 
-Create by hawave. Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
+Created by hawave. Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
 
 Download Sites of CFW and CFA:
 
