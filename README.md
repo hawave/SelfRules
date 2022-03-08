@@ -1,5 +1,7 @@
 # SelfRules
+
 Rules for CFW or CFA.
+
 ❗ ONLY USE BY SELF. You can't share without me. ❗
 
 👉 Copy URL I gave you(it should have Token in the last of URL), paste in the URL bar of Clash, then click download.
