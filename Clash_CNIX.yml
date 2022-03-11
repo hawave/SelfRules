@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.09  01:40
+## 上次更新于：2022.03.11  10:30
 #---------------------------------------------------#
 
 port: 7890
@@ -1070,6 +1070,38 @@ proxies:
     cipher: rc4-md5
     password: 0AHMJh
     udp: true
+  -
+    name: "俄罗斯 01\t"
+    type: ss
+    server: ru01.serenazuma.com
+    port: 7951
+    cipher: rc4-md5
+    password: 0AHMJh
+    udp: true
+  -
+    name: '俄罗斯 02'
+    type: ss
+    server: ru02.serenazuma.com
+    port: 7951
+    cipher: rc4-md5
+    password: 0AHMJh
+    udp: true
+  -
+    name: '俄罗斯 03'
+    type: ss
+    server: ru03.serenazuma.com
+    port: 7951
+    cipher: rc4-md5
+    password: 0AHMJh
+    udp: true
+  -
+    name: '俄罗斯 04'
+    type: ss
+    server: ru04.serenazuma.com
+    port: 7951
+    cipher: rc4-md5
+    password: 0AHMJh
+    udp: true  
   -
     name: '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
     type: ss
@@ -2210,6 +2242,10 @@ proxy-groups:
       - '中港专线 IPLC E18 1000Mbps'
       - '中港专线 IPLC E19 1000Mbps'
       - '中港专线 IPLC E20 1000Mbps'
+      - "俄罗斯 01\t"
+      - '俄罗斯 02'
+      - '俄罗斯 03'
+      - '俄罗斯 04'
       - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
       - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
       - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
