@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.12  13:14
+## 上次更新于：2022.03.13  22:40
 #---------------------------------------------------#
 
 port: 7890
@@ -2333,6 +2333,7 @@ rules:
  - DOMAIN,www.nfmovies.com,🎯 ChinaWebsites
  - DOMAIN,steamdb.info,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,sumhs.edu.cn,🎯 ChinaWebsites
+ - DOMAIN-KEYWORD,rutracker,🚀 节点选择
  
  - DOMAIN-KEYWORD,embyclub,DIRECT
  - DOMAIN,emby.nexitally.com, 🇺🇸 美国节点
