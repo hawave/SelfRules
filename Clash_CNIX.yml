@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.18  11:05
+## 上次更新于：2022.03.18  11:14
 #---------------------------------------------------#
 
 port: 7890
@@ -190,16 +190,16 @@ proxies:
   - {name: 🇯🇵 日本 松山市 家宽 E10, server: jp28.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇯🇵 日本 松山市 家宽 E11, server: jp29.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇯🇵 日本 松山市 家宽 E12, server: jp30.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E03, server: us08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E04, server: us09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E05, server: us10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇺🇸 美国 IEPL 高级 E01, server: us01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇺🇸 美国 IEPL 高级 E02, server: us02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇺🇸 美国 IEPL 高级 E03, server: us03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇺🇸 美国 IEPL 高级 E04, server: us04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇺🇸 美国 IEPL 高级 E05, server: us05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E03, server: us08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E04, server: us09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E05, server: us10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E03, server: kr13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
