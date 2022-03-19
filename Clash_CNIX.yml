@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.18  11:14
+## 上次更新于：2022.03.19  14:47
 #---------------------------------------------------#
 
 port: 7890
@@ -11,9 +11,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国 自建 2T, server: www.hawave.top, port: 27022, type: trojan, password: RoTWd9Kdqp, tls:true, udp: true}
-  - {name: 🇸🇬 新加坡 自建 1T, server: vtr.hawave.top, port: 20000, type: trojan, password: ZR0kcbNmhF, tls:true, udp: true}
-  - {name: 🇸🇬 新加坡 自建 Google, server: gcp.hawave.top, port: 443, type: trojan, password: 4d8ef070, tls:true, udp: true}
+#  - {name: 🇺🇸 美国 自建 2T, server: www.hawave.top, port: 27022, type: trojan, password: RoTWd9Kdqp, tls:true, udp: true}
+#  - {name: 🇸🇬 新加坡 自建 1T, server: vtr.hawave.top, port: 20000, type: trojan, password: ZR0kcbNmhF, tls:true, udp: true}
+#  - {name: 🇸🇬 新加坡 自建 Google, server: gcp.hawave.top, port: 443, type: trojan, password: 4d8ef070, tls:true, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -576,7 +576,7 @@ proxy-groups:
       - '🇺🇸 美国 IEPL 实验性 E03'
       - '🇺🇸 美国 IEPL 实验性 E04'
       - '🇺🇸 美国 IEPL 实验性 E05'
-      - 🇺🇸 美国 自建 2T
+#      - 🇺🇸 美国 自建 2T
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -590,14 +590,14 @@ proxy-groups:
       - '🇸🇬 新加坡 IEPL Magic E03'
       - '🇸🇬 新加坡 IEPL Magic E04'
       - '🇸🇬 新加坡 IEPL Magic E05'
-      - 🇸🇬 新加坡 自建 1T
-      - 🇸🇬 新加坡 自建 Google
+#      - 🇸🇬 新加坡 自建 1T
+#      - 🇸🇬 新加坡 自建 Google
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇺🇸 美国 自建 2T
-      - 🇸🇬 新加坡 自建 1T
-      - 🇸🇬 新加坡 自建 Google
+#      - 🇺🇸 美国 自建 2T
+#      - 🇸🇬 新加坡 自建 1T
+#      - 🇸🇬 新加坡 自建 Google
       - '🇨🇦 加拿大 IPLC E01'
       - '🇨🇦 加拿大 IPLC E02'
       - '🇨🇦 加拿大 IPLC E03'
