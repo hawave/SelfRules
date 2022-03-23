@@ -838,7 +838,7 @@ rules:
  - DOMAIN-KEYWORD,rutracker,🚀 节点选择
  - DOMAIN-SUFFIX,fonts.googleapis.com,📢 Google
  - DOMAIN,xvcf1.xboxlive.com,Ⓜ️ Microsoft
- - DOMAIN,assets1.xboxlive.cn,Ⓜ️ Microsoft
+ - DOMAIN,assets1.xboxlive.cn,🎯 ChinaWebsites
  
  - DOMAIN-KEYWORD,embyclub,DIRECT
  - DOMAIN,emby.nexitally.com, 🇺🇸 美国节点
