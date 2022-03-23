@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.19  14:47
+## 上次更新于：2022.03.13  16:20
 #---------------------------------------------------#
 
 port: 7890
@@ -146,6 +146,11 @@ proxies:
   - {name: 🇭🇰 香港 IPLC E18, server: hk18.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E19, server: hk19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E20, server: hk20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 03, server: hg03.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 04, server: hg04.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 05, server: hg05.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 01, server: ru01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 02, server: ru02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 03, server: ru03.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -459,6 +464,11 @@ proxy-groups:
       - '🇭🇰 香港 IPLC E18'
       - '🇭🇰 香港 IPLC E19'
       - '🇭🇰 香港 IPLC E20'
+      - '🇭🇰 香港 沪港IEPL 01'
+      - '🇭🇰 香港 沪港IEPL 02'
+      - '🇭🇰 香港 沪港IEPL 03'
+      - '🇭🇰 香港 沪港IEPL 04'
+      - '🇭🇰 香港 沪港IEPL 05'
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 网上行 E03'
@@ -730,6 +740,11 @@ proxy-groups:
       - '🇭🇰 香港 IPLC E18'
       - '🇭🇰 香港 IPLC E19'
       - '🇭🇰 香港 IPLC E20'
+      - '🇭🇰 香港 沪港IEPL 01'
+      - '🇭🇰 香港 沪港IEPL 02'
+      - '🇭🇰 香港 沪港IEPL 03'
+      - '🇭🇰 香港 沪港IEPL 04'
+      - '🇭🇰 香港 沪港IEPL 05'
       - '🇷🇺 俄罗斯 01'
       - '🇷🇺 俄罗斯 02'
       - '🇷🇺 俄罗斯 03'
@@ -817,12 +832,13 @@ proxy-groups:
 rules:
  - DOMAIN,管人痴.com,🚀 节点选择
  - DOMAIN-SUFFIX,naixii.com,🚀 节点选择
- - DOMAIN,xvcf1.xboxlive.com,Ⓜ️ Microsoft
  - DOMAIN,www.nfmovies.com,🎯 ChinaWebsites
  - DOMAIN,steamdb.info,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,sumhs.edu.cn,🎯 ChinaWebsites
  - DOMAIN-KEYWORD,rutracker,🚀 节点选择
  - DOMAIN-SUFFIX,fonts.googleapis.com,📢 Google
+ - DOMAIN,xvcf1.xboxlive.com,Ⓜ️ Microsoft
+ - DOMAIN,assets1.xboxlive.cn,Ⓜ️ Microsoft
  
  - DOMAIN-KEYWORD,embyclub,DIRECT
  - DOMAIN,emby.nexitally.com, 🇺🇸 美国节点
