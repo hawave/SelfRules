@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.13  16:20
+## 上次更新于：2022.03.25  16:30
 #---------------------------------------------------#
 
 port: 7890
@@ -839,6 +839,7 @@ rules:
  - DOMAIN-SUFFIX,fonts.googleapis.com,📢 Google
  - DOMAIN,xvcf1.xboxlive.com,Ⓜ️ Microsoft
  - DOMAIN,assets1.xboxlive.cn,🎯 ChinaWebsites
+ - IP-CIDR,172.31.0.1/24,🎯 ChinaWebsites,no-resolve
  
  - DOMAIN-KEYWORD,embyclub,DIRECT
  - DOMAIN,emby.nexitally.com, 🇺🇸 美国节点
