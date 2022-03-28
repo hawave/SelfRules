@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://fast.losadhwselfff2332dasd.xyz/link//link/EE30NTZmZ98agDL1?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2022.03.25  16:30
+## 上次更新于：2022.03.28  10:16
 #---------------------------------------------------#
 
 port: 7890
@@ -884,6 +884,7 @@ rules:
  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎮 Steam CDN
  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎮 Steam CDN
  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎮 Steam CDN
+ - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam CDN
  # Steam
  - DOMAIN-SUFFIX,fanatical.com,🎮 Steam
  - DOMAIN-SUFFIX,humblebundle.com,🎮 Steam
@@ -896,7 +897,6 @@ rules:
  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎮 Steam
  - DOMAIN-SUFFIX,stea.community-a.akamaihd.net,🎮 Steam
  - DOMAIN-SUFFIX,stea.community.com,🎮 Steam
- - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam
  - DOMAIN-SUFFIX,steamgames.com,🎮 Steam
  - DOMAIN-SUFFIX,steampipe.akamaized.net,🎮 Steam
  - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
@@ -15388,7 +15388,6 @@ rules:
  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 ChinaWebsites
- - DOMAIN-SUFFIX,steamcontent.com,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,steamgames.com,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 ChinaWebsites
  - DOMAIN-SUFFIX,steamstat.us,🎯 ChinaWebsites
