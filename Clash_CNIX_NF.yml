@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.04.16  16:20
+# 最后更新于  |  Latest Update ：2022.04.18  23:32
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -257,12 +257,14 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
+      - ⭐ 下载专用
+      - ⭐ 流媒体专用
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 Netflix
     type: select
     proxies:
-      - ⭐ 流媒体
+      - ⭐ 流媒体专用
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -272,7 +274,7 @@ proxy-groups:
   - name: 🎥 Disney+
     type: select
     proxies:
-      - ⭐ 流媒体
+      - ⭐ 流媒体专用
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -346,7 +348,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - DIRECT
       - 🚀 节点选择
+      - ⭐ 下载专用
       - 🇺🇸 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -382,16 +386,17 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
-  - name: 🎮 Steam CDN
+  - name: 🎮 Steam CDN Global
     type: select
     proxies:
-      - DIRECT
+      - ⭐ 下载专用
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
+      - DIRECT
   - name: 🎮 Game
     type: select
     proxies:
@@ -407,7 +412,21 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - DIRECT
-  - name: ⭐ 流媒体
+  - name: ⭐ 下载专用
+    type: select
+    proxies:
+      - 🇸🇬 mm-orsg-tj【10T】
+      - 🇸🇬 susu-awsg-tj【2T】
+      - 🇺🇸 susu-rn1-tj【6T】
+      - 🇺🇸 susu-rn2-tj【4T】
+      - 🇺🇸 pp-rn-tj【4T】
+      - 🇺🇸 muxia-rn-tj【4-6T】
+      - 🇰🇷 susu-or1-ss【10T】
+      - 🇰🇷 susu-or2-ss【10T】
+      - 🇰🇷 susu-or3-ss【10T】
+      - 🇺🇸 美国 自建 2T
+      - 🇸🇬 新加坡 自建 1T
+  - name: ⭐ 流媒体专用
     type: select
     proxies:
       - 🇸🇬 susu-awsg-tj【2T】
@@ -877,21 +896,132 @@ rules:
  - DOMAIN-SUFFIX,optimizely.com,🎥 Disney+
  - DOMAIN-SUFFIX,dssott.com.akamaized.net,🎥 Disney+
  
- # CDN CHINA
- - DOMAIN-SUFFIX,steamcontent.tnkjmec.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎮 Steam CDN
- - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,dl.steam.clngaa.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,xz.pphimalayanrt.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,csgo.wmsj.cn,🎮 Steam CDN
- - DOMAIN-SUFFIX,dota2.wmsj.cn,🎮 Steam CDN
- - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎮 Steam CDN
- - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam CDN
+ # STEAM CDN CHINA
+ - DOMAIN-SUFFIX,steamcontent.tnkjmec.com,DIRECT
+ - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
+ - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
+ - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
+ - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
+ - DOMAIN-SUFFIX,steampowered.com.8686c.com,DIRECT
+ - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,DIRECT
+ - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,DIRECT
+ - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,DIRECT
+ - DOMAIN-SUFFIX,xz.pphimalayanrt.com,DIRECT
+ - DOMAIN-SUFFIX,csgo.wmsj.cn,DIRECT
+ - DOMAIN-SUFFIX,dota2.wmsj.cn,DIRECT
+ - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
+ # STEAM CDN GLOBAL
+ - DOMAIN,cache4-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-hkg1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-tyo1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-tyo1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-tyo2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-tyo2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-tyo2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-tyo2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-seo-hwng.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-sto1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-sto2.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache11-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache12-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache14-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache15-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache16-fra1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-hrk-retn.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-hrk-retn.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache11-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache12-sea1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache11-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache12-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache14-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache15-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache16-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache17-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache18-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache19-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache20-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache21-lax1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-syd1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-syd1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-syd1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-par1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache1-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache2-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache3-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache4-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache5-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache6-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache7-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache8-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache9-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache10-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache11-sgp1.steamcontent.com,🎮 Steam CDN Global
+ - DOMAIN,cache12-sgp1.steamcontent.com,🎮 Steam CDN Global
  # Steam
  - DOMAIN-SUFFIX,fanatical.com,🎮 Steam
  - DOMAIN-SUFFIX,humblebundle.com,🎮 Steam
@@ -919,7 +1049,6 @@ rules:
  - DOMAIN-SUFFIX,underlords.com,🎮 Steam
  - DOMAIN-SUFFIX,valvesoftware.com,🎮 Steam
  - DOMAIN-SUFFIX,wmsjsteam.com,🎮 Steam
- - DOMAIN-SUFFIX,steamcommunity.com,🎮 Steam
  
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
