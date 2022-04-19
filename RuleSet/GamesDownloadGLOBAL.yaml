@@ -1,0 +1,41 @@
+payload:
+  # > Steam 非中国大陆地区游戏下载/社区实况直播
+  - DOMAIN-SUFFIX,steamcontent.com
+
+
+  # > Origin 游戏下载
+  # >> CDN-Level3
+  - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
+  # >> CDN-Akamai
+  - DOMAIN-SUFFIX,origin-a.akamaihd.net
+
+
+  # > Battle.net 战网非中国大陆地区游戏下载
+  # >> CDN-Level3
+  - DOMAIN-SUFFIX,level3.blizzard.com
+  # >> CDN-Akamai
+  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
+  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
+  # >> CDN-Blizzard
+  - DOMAIN-SUFFIX,kr.cdn.blizzard.com
+  - DOMAIN-SUFFIX,us.cdn.blizzard.com
+  - DOMAIN-SUFFIX,eu.cdn.blizzard.com
+
+
+  # > Epic Games 非中国大陆地区游戏下载
+  # >> CDN-Akamai
+  - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+  # >> CDN-Amazon
+  - DOMAIN-SUFFIX,download.epicgames.com
+  - DOMAIN-SUFFIX,download2.epicgames.com
+  - DOMAIN-SUFFIX,download3.epicgames.com
+  - DOMAIN-SUFFIX,download4.epicgames.com
+
+
+  # > Rockstar Launcher 客户端更新/游戏更新/游戏下载
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+
+
+  # > GOG 非中国大陆游戏下载/客户端更新
+  - DOMAIN-SUFFIX,cdn.gog.com
+  - DOMAIN-SUFFIX,galaxy-client-update.gog.com
