@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.04.18  23:32
+# 最后更新于  |  Latest Update ：2022.04.27  23:00
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -15,18 +15,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港 自建 CN2 1T（NF · 20M）, server: ln.eemm.me, port: 443, type: trojan, password: cbD8e9u3Mt, tls:true, udp: true}
   - {name: 🇸🇬 susu-awsg-tj【2T】, server: awsg.susuifa.ml, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 mm-orsg-tj【10T】, server: hk2.jiaxintang.me, port: 50005, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 susu-rn1-tj【6T】, server: rn1.susuifa.ml, port: 443, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: rn1.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 susu-rn2-tj【4T】, server: rn2.susuifa.ml, port: 443, type: trojan, password: f9bc63db-6def-46ce-8d50-f35880b3d019, sni: rn2.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 pp-rn-tj【4T】, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 muxia-rn-tj【4-6T】, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 susu-or1-ss【10T】, server: or1.susuifa.ml, port: 50003, type: ss, cipher: aes-256-gcm, password: susuifa.com, udp: true}
-  - {name: 🇰🇷 susu-or2-ss【10T】, server: or2.susuifa.ml, port: 50002, type: ss, cipher: aes-256-gcm, password: susuifa.com, udp: true}
+  - {name: 🇰🇷 susu-or1-ss【10T】, server: or1.susuifa.ml, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
+  - {name: 🇰🇷 susu-or2-ss【10T】, server: or2.susuifa.ml, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
   - {name: 🇰🇷 susu-or3-ss【10T】, server: or3.susuifa.ml, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
   - {name: 🇺🇸 美国 自建 2T, server: www.hawave.top, port: 27022, type: trojan, password: RoTWd9Kdqp, tls:true, udp: true}
   - {name: 🇸🇬 新加坡 自建 1T, server: vtr.hawave.top, port: 20000, type: trojan, password: ZR0kcbNmhF, tls:true, udp: true}
-# - {name: 🇸🇬 新加坡 自建 Google (禁止大流量), server: gcp.hawave.top, port: 443, type: trojan, password: 4d8ef070, tls:true, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -438,6 +438,7 @@ proxy-groups:
       - 🇰🇷 susu-or1-ss【10T】
       - 🇰🇷 susu-or2-ss【10T】
       - 🇰🇷 susu-or3-ss【10T】
+      - 🇭🇰 香港 自建 CN2 1T（NF · 20M）
   - name: 🇭🇰 香港节点
     type: select
     proxies:
@@ -506,6 +507,7 @@ proxy-groups:
       - '🇭🇰 香港 油尖旺区 E08'
       - '🇭🇰 香港 油尖旺区 E09'
       - '🇭🇰 香港 油尖旺区 E10'
+      - 🇭🇰 香港 自建 CN2 1T（NF · 20M）
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
@@ -618,7 +620,6 @@ proxy-groups:
       - '🇸🇬 新加坡 IEPL Magic E04'
       - '🇸🇬 新加坡 IEPL Magic E05'
       - 🇸🇬 新加坡 自建 1T
-#    - 🇸🇬 新加坡 自建 Google (禁止大流量)
   - name: 🚀 手动切换
     type: select
     proxies:
@@ -631,9 +632,9 @@ proxy-groups:
       - 🇰🇷 susu-or1-ss【10T】
       - 🇰🇷 susu-or2-ss【10T】
       - 🇰🇷 susu-or3-ss【10T】
+      - 🇭🇰 香港 自建 CN2 1T（NF · 20M）
       - 🇺🇸 美国 自建 2T
       - 🇸🇬 新加坡 自建 1T
- #   - 🇸🇬 新加坡 自建 Google (禁止大流量)
       - '🇨🇦 加拿大 IPLC E01'
       - '🇨🇦 加拿大 IPLC E02'
       - '🇨🇦 加拿大 IPLC E03'
