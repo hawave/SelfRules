@@ -35,9 +35,8 @@ function ORGValidCheck(para) {
 
 function fws(para) {
   if(para) {
-  return obj['isp']
-  return '\n'
-  return para
+  var both = obj['isp'] + '\n' + para
+  return both
   } else
   {
   return obj['isp']
