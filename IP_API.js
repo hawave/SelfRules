@@ -1,3 +1,9 @@
+// Quantumlut X IP_API 自编解析 2022.5.7
+// 配合 IP_API：http://ip-api.com/json/?lang=zh-CN
+// KOP-XIAO：https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IPConfig.js
+// limbopro：https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
+// 最后更新于：2022.05.07 22:40
+
 // if ($response.statusCode != 200) {
 //   $done(Null);
 // }
