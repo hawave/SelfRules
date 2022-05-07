@@ -32,6 +32,7 @@ var title = flags.get(obj['countryCode']) + ' '+ obj['country'];
 var subtitle = obj['isp'];
 var ip = obj['query'];
 // var description = obj['country'] + '-' +ValidCheck(obj['city']) + '\n' + obj['asn'] + '\n' + obj['asn_org']+ '\n' + obj['ip'];
-var description = '地区: '+obj['country'] + ' ' + ValidCheck(obj['regionName']) + '\n' + '服务商: '+obj['isp'] + '\n' + '落地: '+  ValidCheck(obj['org']) + '\n' + 'IP: '+ obj['query'];
+// var description = '地区: '+obj['country'] + ' ' + ValidCheck(obj['regionName']) + '\n' + '服务商: '+obj['isp'] + '\n' + '落地: '+  ValidCheck(obj['org']) + '\n' + 'IP: '+ obj['query'];
+var description = 'IP: '+ obj['query'] + '地区: '+obj['country'] + ' ' + ValidCheck(obj['regionName']) + '\n' + '服务商: '+ ValidCheck(obj['isp']) + '\n' + 'IP: '+ obj['query'];
 
 $done({title, subtitle, ip, description});
