@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.05.09  16:38
+# 最后更新于  |  Latest Update ：2022.05.26  23:42
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -30,8 +30,8 @@ proxies:
   - {name: 🇸🇬 SUSU-AWSG-TJ【1T】, server: awsg.shareworld.top, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 SUSU-OR1-SS【10T】, server: or1.shareworld.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: SUSUifa.com, udp: true}
   - {name: 🇰🇷 SUSU-OR2-SS【10T】, server: or2.shareworld.top, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: SUSUifa.com, udp: true}
-  - {name: 🇰🇷 SUSU-OR3.AZHK-SS【10T】, server: az.shareworld.top, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
-  - {name: 🇸🇬 MM-ORSG.AZHK-TJ【10T】, server: az.shareworld.top, port: 50005, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 SUSU-OR3-SS【10T】, server: az.shareworld.top, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
+  - {name: 🇸🇬 MM-ORSG-TJ【10T】, server: az.shareworld.top, port: 50005, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 PP-RN-TJ【2T】, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 MUXIA-RN-TJ【2T】, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 BBL-Zen.CF-VM【No Limit】, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
@@ -425,7 +425,7 @@ proxy-groups:
   - name: ⭐ 下载专用
     type: select
     proxies:
-      - 🇸🇬 MM-ORSG.AZHK-TJ【10T】
+      - 🇸🇬 MM-ORSG-TJ【10T】
       - 🇺🇸 BBL-Zen.CF-VM【No Limit】
       - 🇺🇸 SUSU-RN1-TJ【3T】
       - 🇺🇸 SUSU-RN2.CF-VM【2T】
@@ -433,14 +433,14 @@ proxy-groups:
       - 🇺🇸 MUXIA-RN-TJ【2T】
       - 🇰🇷 SUSU-OR1-SS【10T】
       - 🇰🇷 SUSU-OR2-SS【10T】
-      - 🇰🇷 SUSU-OR3.AZHK-SS【10T】
+      - 🇰🇷 SUSU-OR3-SS【10T】
       - 🇺🇸 美国 自建 2T
       - 🇸🇬 新加坡 自建 1T
   - name: ⭐ 流媒体专用
     type: select
     proxies:
       - 🇸🇬 SUSU-AWSG-TJ【1T】
-      - 🇸🇬 MM-ORSG.AZHK-TJ【10T】
+      - 🇸🇬 MM-ORSG-TJ【10T】
       - 🇺🇸 BBL-Zen.CF-VM【No Limit】
       - 🇺🇸 SUSU-RN1-TJ【3T】
       - 🇺🇸 SUSU-RN2.CF-VM【2T】
@@ -448,7 +448,7 @@ proxy-groups:
       - 🇺🇸 MUXIA-RN-TJ【2T】
       - 🇰🇷 SUSU-OR1-SS【10T】
       - 🇰🇷 SUSU-OR2-SS【10T】
-      - 🇰🇷 SUSU-OR3.AZHK-SS【10T】
+      - 🇰🇷 SUSU-OR3-SS【10T】
       - 🇭🇰 香港 自建 CN2 1T（NF · 20M）
   - name: 🇭🇰 香港节点
     type: select
@@ -635,7 +635,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 SUSU-AWSG-TJ【1T】
-      - 🇸🇬 MM-ORSG.AZHK-TJ【10T】
+      - 🇸🇬 MM-ORSG-TJ【10T】
       - 🇺🇸 BBL-Zen.CF-VM【No Limit】
       - 🇺🇸 SUSU-RN1-TJ【3T】
       - 🇺🇸 SUSU-RN2.CF-VM【2T】
@@ -643,7 +643,7 @@ proxy-groups:
       - 🇺🇸 MUXIA-RN-TJ【2T】
       - 🇰🇷 SUSU-OR1-SS【10T】
       - 🇰🇷 SUSU-OR2-SS【10T】
-      - 🇰🇷 SUSU-OR3.AZHK-SS【10T】
+      - 🇰🇷 SUSU-OR3-SS【10T】
       - 🇭🇰 香港 自建 CN2 1T（NF · 20M）
       - 🇺🇸 美国 自建 2T
       - 🇸🇬 新加坡 自建 1T
