@@ -1,6 +1,8 @@
 payload:
   # > 使 115 云盘下载时绕过系统代理
-  - DOMAIN-SUFFIX,*.115.com
+  - DOMAIN-SUFFIX,115.com
+  # > 蒸汽中国
+  - DOMAIN-SUFFIX,steamchina.com
 
 
   # > Steam 中国大陆地区游戏下载
@@ -12,21 +14,23 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   # >> 金山云 (无法使用 hosts 指定 IP，请使用 Steam 下载 CDN 重定向)
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
   # >> 网宿云
-  - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
   # >> 腾讯云 (仅在蒸汽中国，但可用于国际版)
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   # >> 阿里云 (仅在蒸汽中国，但可用于国际版)
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
-  # >> 阿里云
   - DOMAIN-SUFFIX,xz.pphimalayanrt.com
-  # >> 完美 (仅在下载 CSGO / Dota2 时可用)
+  # >> 完美世界
   - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,wmsjsteam.com
 
 
-  # > Battle.net 战网中国大陆地区游戏下载
+  # > Battle.net 战网 中国大陆地区游戏下载
   # >> 华为云
   - DOMAIN-SUFFIX,client05.pdl.wow.battlenet.com.cn
   # >> 网宿云
