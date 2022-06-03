@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.06.03  22:50
+# 最后更新于  |  Latest Update ：2022.06.03  22:56
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -25,48 +25,48 @@ proxies:
   - {name: 🇰🇷 SUSU-OR1-SS【10T】, server: or1.shareworld.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
   - {name: 🇰🇷 SUSU-OR2-SS【10T】, server: or2.shareworld.top, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
   - {name: 🇰🇷 SUSU-OR3-SS【10T】, server: or3.shareworld.top, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E01, server: hk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E02, server: hk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E02, server: hkbn02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E01, server: jp01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E02, server: jp02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E01, server: jp13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E02, server: jp14.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E01, server: jp31.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E02, server: jp32.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E01, server: jp19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E02, server: jp20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E01, server: sgp01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E02, server: sgp02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E01, server: sgp06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E02, server: sgp07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E01, server: us01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E02, server: us02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E01, server: kr01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E02, server: kr02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E01, server: hk01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E02, server: hk02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E02, server: hkbn02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E01, server: jp01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E02, server: jp02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E01, server: jp13.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E02, server: jp14.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E01, server: jp31.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E02, server: jp32.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E01, server: jp19.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E02, server: jp20.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E01, server: sgp01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E02, server: sgp02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E01, server: sgp06.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E02, server: sgp07.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E01, server: us01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E02, server: us02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E01, server: kr01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E02, server: kr02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 01, server: ru01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 02, server: ru02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E01, server: in01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E01, server: fr01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E01, server: au01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E01, server: ir01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E01, server: in01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E01, server: fr01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E01, server: au01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E01, server: ir01.finfetlake.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
