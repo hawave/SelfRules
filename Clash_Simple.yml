@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.06.03  22:42
+# 最后更新于  |  Latest Update ：2022.06.03  22:47
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -54,12 +54,12 @@ proxies:
   - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E01, server: kr01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E02, server: kr02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 01, server: ru01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 02, server: ru02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -276,12 +276,12 @@ proxy-groups:
       - '🇨🇳 台湾 IEPL HiNet E01'
       - '🇨🇳 台湾 IPLC HiNet E01'
       - '🇨🇳 台湾 宜兰 IPLC E01'
-      - '🇬🇧 英国 伦敦 IEPL E01'
-      - '🇬🇧 英国 伦敦 IEPL E02'
       - '🇰🇷 韩国 IEPL E01'
       - '🇰🇷 韩国 IEPL E02'
       - '🇰🇷 韩国 全州市 商宽 E01'
       - '🇰🇷 韩国 全州市 商宽 E02'
+      - '🇬🇧 英国 伦敦 IEPL E01'
+      - '🇬🇧 英国 伦敦 IEPL E02'
       - '🇷🇺 俄罗斯 01'
       - '🇷🇺 俄罗斯 02'
       - '🇨🇦 加拿大 IPLC E01'
