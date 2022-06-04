@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.06.03  23:33
+# 最后更新于  |  Latest Update ：2022.06.04  15:08
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -16,6 +16,11 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇰🇷 韩国【NF】, server: 124.70.223.118, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: b3abb08c99.douyincdn.com}}
+  - {name: 🇰🇷 韩国-IEPL, server: 124.70.223.118, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: b3abb08c99.douyincdn.com}}
+  - { name: 🇰🇷 韩国-CU, type: vmess, server: cu.mjcnnode.com, port: '16619', uuid: 297fd722-dccb-444f-9f2e-6f2dacf329e2, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: 🇰🇷 韩国-CM, type: vmess, server: cm.mjcnnode.com, port: '16619', uuid: 297fd722-dccb-444f-9f2e-6f2dacf329e2, alterId: 0, cipher: auto, udp: true, network: ws }
+  - { name: 🇰🇷 韩国-CT, type: vmess, server: ct.mjcnnode.com, port: '16619', uuid: 297fd722-dccb-444f-9f2e-6f2dacf329e2, alterId: 0, cipher: auto, udp: true, network: ws }
+
   - {name: 🇸🇬 SUSU-AWSG-TJ【1T】, server: awsg.shareworld.top, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 MM-ORSG-TJ【10T】, server: m.bieb13.ml, port: 443, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 BBL-Zen.CF-VM【No Limit】, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
@@ -192,6 +197,10 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇷 韩国【NF】
+      - 🇰🇷 韩国-IEPL
+      - 🇰🇷 韩国-CU
+      - 🇰🇷 韩国-CM
+      - 🇰🇷 韩国-CT
       - 🇸🇬 SUSU-AWSG-TJ【1T】
       - 🇸🇬 MM-ORSG-TJ【10T】
       - 🇺🇸 BBL-Zen.CF-VM【No Limit】
