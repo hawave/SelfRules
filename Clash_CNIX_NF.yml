@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.05.31  11:44
+# 最后更新于  |  Latest Update ：2022.06.06  16:50
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -27,227 +27,227 @@ proxies:
   - {name: 🇺🇸 BBL-Zen.CF-VM【No Limit】, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
   - {name: 🇺🇸 美国 自建 2T, server: www.hawave.top, port: 27022, type: trojan, password: RoTWd9Kdqp, tls:true, udp: true}
   - {name: 🇸🇬 新加坡 自建 1T, server: vtr.hawave.top, port: 20000, type: trojan, password: ZR0kcbNmhF, tls:true, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E04, server: ca04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇦 加拿大 IPLC E05, server: ca05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E01, server: in01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E02, server: in02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E03, server: in03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E04, server: in04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E05, server: in05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E06, server: in06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E07, server: in07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E08, server: in08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E02, server: tw02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E03, server: tw03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E04, server: tw04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E05, server: tw05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E06, server: tw06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E07, server: tw07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E08, server: tw08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E09, server: tw09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IEPL HiNet E10, server: tw10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E02, server: tw12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E03, server: tw13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E04, server: tw14.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E05, server: tw15.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E06, server: tw16.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E07, server: tw17.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E08, server: tw18.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E09, server: tw19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 IPLC HiNet E10, server: tw20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E02, server: tw22.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E03, server: tw23.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E04, server: tw24.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E05, server: tw25.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E06, server: tw26.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E07, server: tw27.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E08, server: tw28.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E09, server: tw29.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 宜兰 IPLC E10, server: tw30.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E01, server: jp01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E02, server: jp02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E03, server: jp03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E04, server: jp04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E05, server: jp05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E06, server: jp06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E07, server: jp07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E08, server: jp08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E09, server: jp09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E10, server: jp10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E11, server: jp11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IEPL Equinix E12, server: jp12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E01, server: jp13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E02, server: jp14.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E03, server: jp15.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E04, server: jp16.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E05, server: jp17.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 沪日IPLC Equinix E06, server: jp18.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E01, server: fr01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E02, server: fr02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E03, server: fr03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E04, server: fr04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇫🇷 法国 IPLC E05, server: fr05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E01, server: au01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E02, server: au02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E03, server: au03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E04, server: au04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E05, server: au05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E01, server: ir01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E02, server: ir02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E03, server: ir03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E04, server: ir04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇪 爱尔兰 IPLC E05, server: ir05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E03, server: uk03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E04, server: uk04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E05, server: uk05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇬🇧 英国 伦敦 IEPL E06, server: uk06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E01, server: kr01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E02, server: kr02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E03, server: kr03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E04, server: kr04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E05, server: kr05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E06, server: kr06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E07, server: kr07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E08, server: kr08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E09, server: kr09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 IEPL E10, server: kr10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E03, server: hk23.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E04, server: hk24.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E05, server: hk25.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E06, server: hk26.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E07, server: hk27.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E08, server: hk28.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E09, server: hk29.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E10, server: hk30.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E11, server: hk31.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E12, server: hk32.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E13, server: hk33.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E14, server: hk34.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E15, server: hk35.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E16, server: hk36.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E17, server: hk37.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E18, server: hk38.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E19, server: hk39.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IEPL Equinix E20, server: hk40.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E01, server: hk01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E02, server: hk02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E03, server: hk03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E04, server: hk04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E05, server: hk05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E06, server: hk06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E07, server: hk07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E08, server: hk08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E09, server: hk09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E10, server: hk10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E11, server: hk11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E12, server: hk12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E13, server: hk13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E14, server: hk14.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E15, server: hk15.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E16, server: hk16.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E17, server: hk17.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E18, server: hk18.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E19, server: hk19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 IPLC E20, server: hk20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 03, server: hg03.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 04, server: hg04.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 05, server: hg05.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇷🇺 俄罗斯 01, server: ru01.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇷🇺 俄罗斯 02, server: ru02.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇷🇺 俄罗斯 03, server: ru03.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇷🇺 俄罗斯 04, server: ru04.serenazuma.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E01, server: sgp01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E02, server: sgp02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E03, server: sgp03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E04, server: sgp04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E05, server: sgp05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E01, server: sgp06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E02, server: sgp07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E03, server: sgp08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E04, server: sgp09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL Magic E05, server: sgp10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E01, server: jp31.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E02, server: jp32.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E03, server: jp33.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E04, server: jp34.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E05, server: jp35.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E06, server: jp36.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E07, server: jp37.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E08, server: jp38.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E09, server: jp39.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E10, server: jp40.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E11, server: jp41.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E12, server: jp42.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E13, server: jp43.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E14, server: jp44.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E15, server: jp45.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E16, server: jp46.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E17, server: jp47.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 软银 E18, server: jp48.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E01, server: jp19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E02, server: jp20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E03, server: jp21.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E04, server: jp22.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E05, server: jp23.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E06, server: jp24.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E07, server: jp25.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E08, server: jp26.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E09, server: jp27.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E10, server: jp28.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E11, server: jp29.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇯🇵 日本 松山市 家宽 E12, server: jp30.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E01, server: us01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E02, server: us02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E03, server: us03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E04, server: us04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 高级 E05, server: us05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E03, server: us08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E04, server: us09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇺🇸 美国 IEPL 实验性 E05, server: us10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E03, server: kr13.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E04, server: kr14.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E05, server: kr15.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E06, server: kr16.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E07, server: kr17.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E08, server: kr18.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E09, server: kr19.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E10, server: kr20.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E03, server: hkt03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E04, server: hkt04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E05, server: hkt05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E06, server: hkt06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E07, server: hkt07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E08, server: hkt08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E09, server: hkt09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 网上行 E10, server: hkt10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E02, server: hkbn02.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E03, server: hkbn03.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E04, server: hkbn04.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E05, server: hkbn05.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E06, server: hkbn06.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E07, server: hkbn07.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E08, server: hkbn08.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E09, server: hkbn09.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 油尖旺区 E10, server: hkbn10.advancedvectorextensions.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E04, server: ca04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇦 加拿大 IPLC E05, server: ca05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E01, server: in01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E02, server: in02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E03, server: in03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E04, server: in04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E05, server: in05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E06, server: in06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E07, server: in07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇳 印度 班加罗尔 IPLC E08, server: in08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E02, server: tw02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E03, server: tw03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E04, server: tw04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E05, server: tw05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E06, server: tw06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E07, server: tw07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E08, server: tw08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E09, server: tw09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IEPL HiNet E10, server: tw10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E02, server: tw12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E03, server: tw13.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E04, server: tw14.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E05, server: tw15.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E06, server: tw16.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E07, server: tw17.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E08, server: tw18.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E09, server: tw19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 IPLC HiNet E10, server: tw20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E02, server: tw22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E03, server: tw23.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E04, server: tw24.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E05, server: tw25.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E06, server: tw26.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E07, server: tw27.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E08, server: tw28.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E09, server: tw29.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇨🇳 台湾 宜兰 IPLC E10, server: tw30.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E01, server: jp01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E02, server: jp02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E03, server: jp03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E04, server: jp04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E05, server: jp05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E06, server: jp06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E07, server: jp07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E08, server: jp08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E09, server: jp09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E10, server: jp10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E11, server: jp11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IEPL Equinix E12, server: jp12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E01, server: jp13.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E02, server: jp14.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E03, server: jp15.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E04, server: jp16.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E05, server: jp17.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 沪日IPLC Equinix E06, server: jp18.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E01, server: fr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E02, server: fr02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E03, server: fr03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E04, server: fr04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇫🇷 法国 IPLC E05, server: fr05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E01, server: au01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E02, server: au02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E03, server: au03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E04, server: au04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E05, server: au05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E01, server: ir01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E02, server: ir02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E03, server: ir03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E04, server: ir04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇮🇪 爱尔兰 IPLC E05, server: ir05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E03, server: uk03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E04, server: uk04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E05, server: uk05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇬🇧 英国 伦敦 IEPL E06, server: uk06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E01, server: kr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E02, server: kr02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E03, server: kr03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E04, server: kr04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E05, server: kr05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E06, server: kr06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E07, server: kr07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E08, server: kr08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E09, server: kr09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 IEPL E10, server: kr10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E03, server: hk23.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E04, server: hk24.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E05, server: hk25.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E06, server: hk26.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E07, server: hk27.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E08, server: hk28.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E09, server: hk29.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E10, server: hk30.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E11, server: hk31.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E12, server: hk32.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E13, server: hk33.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E14, server: hk34.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E15, server: hk35.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E16, server: hk36.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E17, server: hk37.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E18, server: hk38.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E19, server: hk39.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IEPL Equinix E20, server: hk40.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E02, server: hk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E03, server: hk03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E04, server: hk04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E05, server: hk05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E06, server: hk06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E07, server: hk07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E08, server: hk08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E09, server: hk09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E10, server: hk10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E11, server: hk11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E12, server: hk12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E13, server: hk13.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E14, server: hk14.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E15, server: hk15.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E16, server: hk16.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E17, server: hk17.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E18, server: hk18.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E19, server: hk19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 IPLC E20, server: hk20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 03, server: hg03.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 04, server: hg04.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 沪港IEPL 05, server: hg05.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 01, server: ru01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 02, server: ru02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 03, server: ru03.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 04, server: ru04.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E01, server: sgp01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E02, server: sgp02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E03, server: sgp03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E04, server: sgp04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Legacy Magic E05, server: sgp05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E01, server: sgp06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E02, server: sgp07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E03, server: sgp08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E04, server: sgp09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL Magic E05, server: sgp10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E01, server: jp31.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E02, server: jp32.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E03, server: jp33.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E04, server: jp34.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E05, server: jp35.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E06, server: jp36.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E07, server: jp37.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E08, server: jp38.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E09, server: jp39.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E10, server: jp40.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E11, server: jp41.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E12, server: jp42.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E13, server: jp43.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E14, server: jp44.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E15, server: jp45.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E16, server: jp46.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E17, server: jp47.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 软银 E18, server: jp48.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E01, server: jp19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E02, server: jp20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E03, server: jp21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E04, server: jp22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E05, server: jp23.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E06, server: jp24.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E07, server: jp25.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E08, server: jp26.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E09, server: jp27.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E10, server: jp28.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E11, server: jp29.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇯🇵 日本 松山市 家宽 E12, server: jp30.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E01, server: us01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E02, server: us02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E03, server: us03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E04, server: us04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 高级 E05, server: us05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E01, server: us06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E02, server: us07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E03, server: us08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E04, server: us09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇺🇸 美国 IEPL 实验性 E05, server: us10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E03, server: kr13.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E04, server: kr14.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E05, server: kr15.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E06, server: kr16.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E07, server: kr17.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E08, server: kr18.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E09, server: kr19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州市 商宽 E10, server: kr20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E03, server: hkt03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E04, server: hkt04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E05, server: hkt05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E06, server: hkt06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E07, server: hkt07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E08, server: hkt08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E09, server: hkt09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 网上行 E10, server: hkt10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E02, server: hkbn02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E03, server: hkbn03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E04, server: hkbn04.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E05, server: hkbn05.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E06, server: hkbn06.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E07, server: hkbn07.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E08, server: hkbn08.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E09, server: hkbn09.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 油尖旺区 E10, server: hkbn10.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
