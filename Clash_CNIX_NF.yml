@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.06.06  16:50
+# 最后更新于  |  Latest Update ：2022.06.09  00:10
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -25,8 +25,6 @@ proxies:
   - {name: 🇺🇸 PP-RN-TJ【2T】, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 MUXIA-RN-TJ【2T】, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 BBL-Zen.CF-VM【No Limit】, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
-  - {name: 🇺🇸 美国 自建 2T, server: www.hawave.top, port: 27022, type: trojan, password: RoTWd9Kdqp, tls:true, udp: true}
-  - {name: 🇸🇬 新加坡 自建 1T, server: vtr.hawave.top, port: 20000, type: trojan, password: ZR0kcbNmhF, tls:true, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -424,8 +422,6 @@ proxy-groups:
       - 🇰🇷 SUSU-OR1-SS【10T】
       - 🇰🇷 SUSU-OR2-SS【10T】
       - 🇰🇷 SUSU-OR3-SS【10T】
-      - 🇺🇸 美国 自建 2T
-      - 🇸🇬 新加坡 自建 1T
   - name: ⭐ 流媒体专用
     type: select
     proxies:
@@ -604,7 +600,6 @@ proxy-groups:
       - '🇺🇸 美国 IEPL 实验性 E03'
       - '🇺🇸 美国 IEPL 实验性 E04'
       - '🇺🇸 美国 IEPL 实验性 E05'
-      - 🇺🇸 美国 自建 2T
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -618,7 +613,6 @@ proxy-groups:
       - '🇸🇬 新加坡 IEPL Magic E03'
       - '🇸🇬 新加坡 IEPL Magic E04'
       - '🇸🇬 新加坡 IEPL Magic E05'
-      - 🇸🇬 新加坡 自建 1T
   - name: 🚀 手动切换
     type: select
     proxies:
@@ -632,8 +626,6 @@ proxy-groups:
       - 🇰🇷 SUSU-OR1-SS【10T】
       - 🇰🇷 SUSU-OR2-SS【10T】
       - 🇰🇷 SUSU-OR3-SS【10T】
-      - 🇺🇸 美国 自建 2T
-      - 🇸🇬 新加坡 自建 1T
       - '🇨🇦 加拿大 IPLC E01'
       - '🇨🇦 加拿大 IPLC E02'
       - '🇨🇦 加拿大 IPLC E03'
