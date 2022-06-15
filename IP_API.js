@@ -50,7 +50,7 @@ function fws(para) {
 }
 
 function Countries(para) {
-  if("台湾") {
+  if(para=="台湾") {
   return "台湾省" 
   } else
   {
