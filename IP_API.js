@@ -2,7 +2,7 @@
 // 配合 IP_API：http://ip-api.com/json/?lang=zh-CN
 // KOP-XIAO：https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IPConfig.js
 // limbopro：https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
-// 最后更新于：2022.06.16 03:42
+// 最后更新于：2022.06.23 15:26
 
 // if ($response.statusCode != 200) {
 //   $done(Null);
@@ -40,7 +40,7 @@ function ORGValidCheck(para) {
 }
 
 function fws(para) {
-  if(para) {
+  if(para&&para!=obj['isp']) {
   var both = obj['isp'] + '\n' + para
   return both
   } else
