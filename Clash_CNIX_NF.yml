@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.06.26  17:18
+# 最后更新于  |  Latest Update ：2022.06.26  17:30
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -948,7 +948,6 @@ rules:
   # > GOG 非中国大陆游戏下载/客户端更新
  - DOMAIN-SUFFIX,cdn.gog.com,🎮 Games Download Global
  - DOMAIN-SUFFIX,galaxy-client-update.gog.com,🎮 Games Download Global
- 
 
  # Steam
  - DOMAIN-SUFFIX,fanatical.com,🎮 Steam
