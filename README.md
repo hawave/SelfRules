@@ -3,15 +3,15 @@
 Rules for CFW or CFA. Also include some for Shadowrocket or Quantumult X.
 
 Still keep updating.
-
+ 
  
 ❗ ONLY USE BY SELF. You can NOT share without me. ❗
 
 👉 Copy URL I gave you, paste in the URL bar of Clash, then click download.
-
+ 
  
 Created by Dadward(t.me/mkcen). Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
-
+ 
  
 Download Sites:
 
