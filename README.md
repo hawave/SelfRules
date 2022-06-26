@@ -1,17 +1,17 @@
 # SelfRules
 
-Rules for CFW or CFA.
+Rules for CFW or CFA. Also include some for Shadowrocket or Quantumult X.
+Still keep updating.
 
-❗ ONLY USE BY SELF. You can't share without me. ❗
+❗ ONLY USE BY SELF. You can NOT share without me. ❗
 
 👉 Copy URL I gave you, paste in the URL bar of Clash, then click download.
 
-Created by hawave. Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
+Created by Dadward(t.me/mkcen). Rewritten from the rules format of the Subscription Converter site. Added some self-use rules.
 
-Download Sites of CFW and CFA:
-
-Clash for Windows: https://github.com/Fndroid/clash_for_windows_pkg/releases
-
-Clash for Android: https://github.com/Kr328/ClashForAndroid/releases
-
-2022.3.19 - Add a file of rules for Shadowrocket. For classmate and myself.
+Download Sites:
+[Windows] Clash for Windows: https://github.com/Fndroid/clash_for_windows_pkg/releases
+[Android] Clash for Android: https://github.com/Kr328/ClashForAndroid/releases
+[iOS] Shadowrocket: https://apps.apple.com/app/shadowrocket/id932747118
+[iOS] Quantumlut X: https://apps.apple.com/app/quantumult-x/id1443988620
+[iOS] Stash: https://apps.apple.com/app/stash-rule-based-proxy/id1596063349
