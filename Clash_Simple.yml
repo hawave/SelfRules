@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.06.26  17:18
+# 最后更新于  |  Latest Update ：2022.06.26  17:30
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -115,6 +115,16 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 狮城节点
   - name: 🍎 Apple
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 狮城节点
+  - name: 🎮 Steam
     type: select
     proxies:
       - DIRECT
@@ -452,6 +462,34 @@ rules:
   # > GOG 非中国大陆游戏下载/客户端更新
  - DOMAIN-SUFFIX,cdn.gog.com,🎮 Games Download Global
  - DOMAIN-SUFFIX,galaxy-client-update.gog.com,🎮 Games Download Global
+
+ # Steam
+ - DOMAIN-SUFFIX,fanatical.com,🎮 Steam
+ - DOMAIN-SUFFIX,humblebundle.com,🎮 Steam
+ - DOMAIN-SUFFIX,playartifact.com,🎮 Steam
+ - DOMAIN-SUFFIX,s.team,🎮 Steam
+ - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎮 Steam
+ - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎮 Steam
+ - DOMAIN-SUFFIX,steam-chat.com,🎮 Steam
+ - DOMAIN-SUFFIX,steambroadcast.akamaized.net,🎮 Steam
+ - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,stea.community-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,stea.community.com,🎮 Steam
+ - DOMAIN-SUFFIX,steamgames.com,🎮 Steam
+ - DOMAIN-SUFFIX,steampipe.akamaized.net,🎮 Steam
+ - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
+ - DOMAIN-SUFFIX,steamstat.us,🎮 Steam
+ - DOMAIN-SUFFIX,steamstatic.com,🎮 Steam
+ - DOMAIN-SUFFIX,steamstatic.com.8686c.com,🎮 Steam
+ - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,steamunlocked.net,🎮 Steam
+ - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,steamusercontent.com,🎮 Steam
+ - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,🎮 Steam
+ - DOMAIN-SUFFIX,underlords.com,🎮 Steam
+ - DOMAIN-SUFFIX,valvesoftware.com,🎮 Steam
+ - DOMAIN-SUFFIX,wmsjsteam.com,🎮 Steam
 
 
 # ACL4SSR Online Full
