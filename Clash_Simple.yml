@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.06.26  17:30
+# 最后更新于  |  Latest Update ：2022.07.11  01:04
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -15,18 +15,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国 原生专线 1, server: preshdata1.anihpv4266.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 7632101a97.douyincdn.com}}
-  - {name: 🇰🇷 韩国 原生专线 2, server: preshdata1.anihpv4266.xyz, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 7632101a97.douyincdn.com}}
-  - {name: 🇸🇬 SUSU-AWSG-TJ【1T】, server: awsg.shareworld.top, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 MM-ORSG-TJ【10T】, server: m.bieb13.ml, port: 443, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 BBL-Zen.CF-VM【No Limit】, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
-  - {name: 🇺🇸 SUSU-RN1-TJ【3T】, server: rn1.shareworld.top, port: 443, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: rn1.shareworld.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 SUSU-RN2.CF-VM【2T】, server: rn2.shareworld.top, port: 443, type: vmess, uuid: f9bc63db-6def-46ce-8d50-f35880b3d019, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rn2.shareworld.top, network: ws, ws-opts: {path: /susuvws, headers: {Host: rn2.shareworld.top}}, udp: true}
-  - {name: 🇺🇸 PP-RN-TJ【2T】, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 MUXIA-RN-TJ【2T】, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 SUSU-OR1-SS【10T】, server: or1.shareworld.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
-  - {name: 🇰🇷 SUSU-OR2-SS【10T】, server: or2.shareworld.top, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
-  - {name: 🇰🇷 SUSU-OR3-SS【10T】, server: or3.shareworld.top, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: susuifa.com, udp: true}
+  - {name: 🇰🇷 韩国 原生专线 1, server: preshdata1.anihpv4266.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 7632101a97.douyincdn.com}, udp: true}
+  - {name: 🇰🇷 韩国 原生专线 2, server: preshdata1.anihpv4266.xyz, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 7632101a97.douyincdn.com}, udp: true}
+  - {name: 🇸🇬 新加坡 Amazon SUSU, server: awsg.shareworld.top, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 Oracle MM, server: m.bieb13.ml, port: 443, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 Zenlayer[Cloudflare] BBL, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
+  - {name: 🇺🇸 美国 Racknerd SUSU 1, server: rn1.shareworld.top, port: 443, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: rn1.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 Racknerd[Cloudflare] SUSU 2, server: rn2.shareworld.top, port: 443, type: vmess, uuid: f9bc63db-6def-46ce-8d50-f35880b3d019, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rn2.shareworld.top, network: ws, ws-opts: {path: /susuvws, headers: {Host: rn2.shareworld.top}}, udp: true}
+  - {name: 🇺🇸 美国 Racknerd PP, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 Racknerd MUXIA, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 1, server: or1.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or1.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 2, server: or2.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or2.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 3, server: or3.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or3.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
