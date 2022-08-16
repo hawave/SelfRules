@@ -8,4 +8,4 @@ Still keep updating.
 
 👉 Copy URL I gave you, paste in the URL bar of Clash, then click download.
 #
-Created by [hawave](https://t.me/mkcen). Rewritten from the rules format of the [Subscription Converter](https://sublink.dev) site. Added some self-use rules.
+Created by [hawave](https://t.me/omple). Rewritten from the rules format of the [Subscription Converter](https://sublink.dev) site. Added some self-use rules.
