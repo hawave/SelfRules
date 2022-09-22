@@ -6,7 +6,7 @@ Still keep updating but depends on my mood.
 
 ❗ ONLY USE BY SELF. You can NOT share without my passing. ❗
 
-👉 Copy URL I gave you, paste in the URL bar of Clash, then click download.
+👉 Copy URL I gave you, paste in the URL bar of Clash, then click Download.
 #
 Rewritten from the rules format of the [Subscription Converter](https://sublink.dev) site. Added some self-use rules.
 
