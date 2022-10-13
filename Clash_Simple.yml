@@ -1,11 +1,11 @@
 # CNIX & Self Built & Susu_IFA 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.08.20  21:10
+# 最后更新于  |  Latest Update ：2022.10.14  01:20
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
 # 仅限自用，禁止分享  |  Only Use by Self. Share is not permitted.
-# [ CNIX | Self Built ] Proxies by Dadward @ https://t.me/mkcen
-# [ Netflix | Disney+ | Download ] Proxies by Susu_IFA @ https://t.me/Susu_IFA
+# [ CNIX | Self Built ] Proxies by kudosune
+# [ Streaming | Download ] Proxies by Susu_IFA
 #-----------------------------------------------------------------#
 
 port: 7890
@@ -33,6 +33,8 @@ proxies:
   - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E02, server: hk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H1, server: nehk01.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H2, server: nehk02.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -56,8 +58,6 @@ proxies:
   - {name: 🇨🇳 台湾 IEPL HiNet E01, server: tw01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇳 台湾 IPLC HiNet E01, server: tw11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H1, server: twch1.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H2, server: twch2.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E01, server: kr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E02, server: kr02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -81,14 +81,13 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
-      - ⭐ 下载专用
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 Netflix
     type: select
     proxies:
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -98,7 +97,7 @@ proxy-groups:
   - name: 🎥 Disney+
     type: select
     proxies:
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -111,7 +110,7 @@ proxy-groups:
       - DIRECT
       - DIRECT
       - 🚀 节点选择
-      - ⭐ 下载专用
+      - ⭐ 下载 & 流媒体
       - 🇺🇸 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -140,7 +139,7 @@ proxy-groups:
   - name: 🎮 Games Download Global
     type: select
     proxies:
-      - ⭐ 下载专用
+      - ⭐ 下载 & 流媒体
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -173,19 +172,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - DIRECT
-  - name: ⭐ 下载专用
-    type: select
-    proxies:
-      - 🇸🇬 新加坡 Oracle MM
-#      - 🇺🇸 美国 Zenlayer(Cloudflare) BBL
-      - 🇺🇸 美国 Racknerd SUSU 1
-      - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
-      - 🇺🇸 美国 Racknerd PP
-      - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
-  - name: ⭐ 流媒体专用
+  - name: ⭐ 下载 & 流媒体
     type: select
     proxies:
       - 🇰🇷 韩国 原生专线 1
@@ -209,6 +196,8 @@ proxy-groups:
       - '🇭🇰 香港 沪港IEPL 02'
       - '🇭🇰 香港 IPLC E01'
       - '🇭🇰 香港 IPLC E02'
+      - '🇭🇰 香港 H1'
+      - '🇭🇰 香港 H2'
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 E01'
@@ -219,8 +208,6 @@ proxy-groups:
       - '🇨🇳 台湾 IEPL HiNet E01'
       - '🇨🇳 台湾 IPLC HiNet E01'
       - '🇨🇳 台湾 宜兰 IPLC E01'
-      - '🇨🇳 台湾 H1'
-      - '🇨🇳 台湾 H2'
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -255,6 +242,8 @@ proxy-groups:
       - '🇭🇰 香港 沪港IEPL 02'
       - '🇭🇰 香港 IPLC E01'
       - '🇭🇰 香港 IPLC E02'
+      - '🇭🇰 香港 H1'
+      - '🇭🇰 香港 H2'
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 E01'
@@ -278,8 +267,6 @@ proxy-groups:
       - '🇨🇳 台湾 IEPL HiNet E01'
       - '🇨🇳 台湾 IPLC HiNet E01'
       - '🇨🇳 台湾 宜兰 IPLC E01'
-      - '🇨🇳 台湾 H1'
-      - '🇨🇳 台湾 H2'
       - '🇰🇷 韩国 IEPL E01'
       - '🇰🇷 韩国 IEPL E02'
       - '🇰🇷 韩国 全州市 商宽 E01'
