@@ -1,5 +1,5 @@
 # CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.08.20  21:10
+# 最后更新于  |  Latest Update ：2022.10.14  01:10
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -166,14 +166,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 02, server: ru02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 03, server: ru03.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 04, server: ru04.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H1, server: twch1.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H2, server: twch2.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H3, server: twch3.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H4, server: twch4.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H5, server: twch5.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H6, server: twch6.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H7, server: twch7.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇨🇳 台湾 H8, server: twch8.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 05, server: ru05.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇷🇺 俄罗斯 06, server: ru06.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇩🇪 德国 H1, server: ge1.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇩🇪 德国 H2, server: ge2.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇩🇪 德国 H3, server: ge3.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -240,6 +234,12 @@ proxies:
   - {name: 🇰🇷 韩国 全州市 商宽 E08, server: kr18.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E09, server: kr19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 全州市 商宽 E10, server: kr20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H1, server: nehk01.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H2, server: nehk02.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H3, server: nehk03.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H4, server: nehk04.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H5, server: nehk05.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇭🇰 香港 H6, server: nehk06.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E03, server: hkt03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -269,14 +269,13 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
-      - ⭐ 下载专用
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 Netflix
     type: select
     proxies:
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -286,7 +285,7 @@ proxy-groups:
   - name: 🎥 Disney+
     type: select
     proxies:
-      - ⭐ 流媒体专用
+      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -299,7 +298,7 @@ proxy-groups:
       - DIRECT
       - DIRECT
       - 🚀 节点选择
-      - ⭐ 下载专用
+      - ⭐ 下载 & 流媒体
       - 🇺🇸 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -328,7 +327,7 @@ proxy-groups:
   - name: 🎮 Games Download Global
     type: select
     proxies:
-      - ⭐ 下载专用
+      - ⭐ 下载 & 流媒体
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -361,22 +360,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - DIRECT
-  - name: ⭐ 下载专用
+  - name: ⭐ 下载 & 流媒体
     type: select
     proxies:
-      - 🇸🇬 新加坡 Oracle MM
-#      - 🇺🇸 美国 Zenlayer(Cloudflare) BBL
-      - 🇺🇸 美国 Racknerd SUSU 1
-      - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
-      - 🇺🇸 美国 Racknerd PP
-      - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
-  - name: ⭐ 流媒体专用
-    type: select
-    proxies:
-      - 🇸🇬 新加坡 Amazon SUSU
       - 🇸🇬 新加坡 Oracle MM
 #      - 🇺🇸 美国 Zenlayer(Cloudflare) BBL
       - 🇺🇸 美国 Racknerd SUSU 1
@@ -434,6 +420,12 @@ proxy-groups:
       - '🇭🇰 香港 沪港IEPL 03'
       - '🇭🇰 香港 沪港IEPL 04'
       - '🇭🇰 香港 沪港IEPL 05'
+      - 🇭🇰 香港 H1
+      - 🇭🇰 香港 H2
+      - 🇭🇰 香港 H3
+      - 🇭🇰 香港 H4
+      - 🇭🇰 香港 H5
+      - 🇭🇰 香港 H6
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 网上行 E03'
@@ -487,14 +479,6 @@ proxy-groups:
       - '🇨🇳 台湾 宜兰 IPLC E08'
       - '🇨🇳 台湾 宜兰 IPLC E09'
       - '🇨🇳 台湾 宜兰 IPLC E10'
-      - '🇨🇳 台湾 H1'
-      - '🇨🇳 台湾 H2'
-      - '🇨🇳 台湾 H3'
-      - '🇨🇳 台湾 H4'
-      - '🇨🇳 台湾 H5'
-      - '🇨🇳 台湾 H6'
-      - '🇨🇳 台湾 H7'
-      - '🇨🇳 台湾 H8'
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -726,14 +710,8 @@ proxy-groups:
       - '🇷🇺 俄罗斯 02'
       - '🇷🇺 俄罗斯 03'
       - '🇷🇺 俄罗斯 04'
-      - '🇨🇳 台湾 H1'
-      - '🇨🇳 台湾 H2'
-      - '🇨🇳 台湾 H3'
-      - '🇨🇳 台湾 H4'
-      - '🇨🇳 台湾 H5'
-      - '🇨🇳 台湾 H6'
-      - '🇨🇳 台湾 H7'
-      - '🇨🇳 台湾 H8'
+      - 🇷🇺 俄罗斯 05
+      - 🇷🇺 俄罗斯 06
       - '🇩🇪 德国 H1'
       - '🇩🇪 德国 H2'
       - '🇩🇪 德国 H3'
@@ -800,6 +778,12 @@ proxy-groups:
       - '🇰🇷 韩国 全州市 商宽 E08'
       - '🇰🇷 韩国 全州市 商宽 E09'
       - '🇰🇷 韩国 全州市 商宽 E10'
+      - 🇭🇰 香港 H1
+      - 🇭🇰 香港 H2
+      - 🇭🇰 香港 H3
+      - 🇭🇰 香港 H4
+      - 🇭🇰 香港 H5
+      - 🇭🇰 香港 H6
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 网上行 E03'
