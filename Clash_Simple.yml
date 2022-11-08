@@ -24,9 +24,9 @@ proxies:
   - {name: 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2, server: rn2.shareworld.top, port: 443, type: vmess, uuid: f9bc63db-6def-46ce-8d50-f35880b3d019, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rn2.shareworld.top, network: ws, ws-opts: {path: /susuvws, headers: {Host: rn2.shareworld.top}}, udp: true}
   - {name: 🇺🇸 美国 Racknerd PP, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 Racknerd MUXIA, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 1, server: or1.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or1.shareworld.top, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 2, server: or2.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or2.shareworld.top, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 3, server: or3.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or3.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 1, server: or1.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or1.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 2, server: or2.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or2.shareworld.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Oracle SUSU 3, server: or3.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or3.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -183,9 +183,9 @@ proxy-groups:
       - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
       - 🇺🇸 美国 Racknerd PP
       - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
+      - 🇰🇷 韩国 Oracle SUSU 1
+      - 🇰🇷 韩国 Oracle SUSU 2
+      - 🇰🇷 韩国 Oracle SUSU 3
   - name: 🇭🇰 香港节点
     type: select
     proxies:
@@ -289,9 +289,9 @@ proxy-groups:
       - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
       - 🇺🇸 美国 Racknerd PP
       - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
+      - 🇰🇷 韩国 Oracle SUSU 1
+      - 🇰🇷 韩国 Oracle SUSU 2
+      - 🇰🇷 韩国 Oracle SUSU 3
 rules:
 # 自定义规则
     # > 机场官网
