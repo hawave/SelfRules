@@ -1,11 +1,10 @@
-# CNIX & Self Built & Susu_IFA 自编配置  2022.4.16
-# 最后更新于  |  Latest Update ：2022.10.14  01:20
+# CNIX & Self Built 自编配置  2022.4.16
+# 最后更新于  |  Latest Update ：2022.12.4  18:00
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
 # 仅限自用，禁止分享  |  Only Use by Self. Share is not permitted.
 # [ CNIX | Self Built ] Proxies by kudosune
-# [ Streaming | Download ] Proxies by Susu_IFA
 #-----------------------------------------------------------------#
 
 port: 7890
@@ -15,16 +14,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡 Amazon SUSU, server: awsg.shareworld.top, port: 443, type: trojan, password: 6f56ac26-4d22-4da8-ad18-5d83e6b73c01, sni: awsg.shareworld.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 Oracle MM, server: m.bieb13.ml, port: 443, type: trojan, password: 27453b36-8a9c-436f-85fe-b93fc95ad8ac, sni: m.bieb13.ml, skip-cert-verify: false, udp: true}
-#  - {name: 🇺🇸 美国 Zenlayer(Cloudflare) BBL, server: guomei0f2.tk, port: 443, type: vmess, uuid: 503f0135-afac-446f-9e01-3b592ff2676a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guomei0f2.tk, network: ws, ws-opts: {path: /oxhuvws, headers: {Host: guomei0f2.tk}}, udp: true}
-  - {name: 🇺🇸 美国 Racknerd SUSU 1, server: rn1.shareworld.top, port: 443, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: rn1.shareworld.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2, server: rn2.shareworld.top, port: 443, type: vmess, uuid: f9bc63db-6def-46ce-8d50-f35880b3d019, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rn2.shareworld.top, network: ws, ws-opts: {path: /susuvws, headers: {Host: rn2.shareworld.top}}, udp: true}
-  - {name: 🇺🇸 美国 Racknerd PP, server: v2.popeyang.ml, port: 4396, type: trojan, password: 1c0d496f-f730-4d04-9385-d6ca2bd87490, sni: v2.popeyang.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 Racknerd MUXIA, server: susuifa.cf, port: 443, type: trojan, password: 871adaa5-d9bb-486f-b9b7-2af5f13c0fcf, sni: susuifa.cf, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 1, server: or1.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or1.shareworld.top, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 2, server: or2.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or2.shareworld.top, skip-cert-verify: false, udp: true}
-#  - {name: 🇰🇷 韩国 Oracle SUSU 3, server: or3.shareworld.top, port: 4433, type: trojan, password: 0a5aff32-a0e7-4d06-8274-fb4102ee7380, sni: or3.shareworld.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E02, server: ca02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E03, server: ca03.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -269,13 +258,11 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 狮城节点
-      - ⭐ 下载 & 流媒体
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 Netflix
     type: select
     proxies:
-      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -285,7 +272,6 @@ proxy-groups:
   - name: 🎥 Disney+
     type: select
     proxies:
-      - ⭐ 下载 & 流媒体
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -298,7 +284,6 @@ proxy-groups:
       - DIRECT
       - DIRECT
       - 🚀 节点选择
-      - ⭐ 下载 & 流媒体
       - 🇺🇸 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -327,7 +312,6 @@ proxy-groups:
   - name: 🎮 Games Download Global
     type: select
     proxies:
-      - ⭐ 下载 & 流媒体
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -360,18 +344,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - DIRECT
-  - name: ⭐ 下载 & 流媒体
-    type: select
-    proxies:
-      - 🇸🇬 新加坡 Oracle MM
-#      - 🇺🇸 美国 Zenlayer(Cloudflare) BBL
-      - 🇺🇸 美国 Racknerd SUSU 1
-      - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
-      - 🇺🇸 美国 Racknerd PP
-      - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
   - name: 🇭🇰 香港节点
     type: select
     proxies:
@@ -559,16 +531,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇸🇬 新加坡 Amazon SUSU
-      - 🇸🇬 新加坡 Oracle MM
-#      - 🇺🇸 美国 Zenlayer(Cloudflare) BBL
-      - 🇺🇸 美国 Racknerd SUSU 1
-      - 🇺🇸 美国 Racknerd(Cloudflare) SUSU 2
-      - 🇺🇸 美国 Racknerd PP
-      - 🇺🇸 美国 Racknerd MUXIA
-#      - 🇰🇷 韩国 Oracle SUSU 1
-#      - 🇰🇷 韩国 Oracle SUSU 2
-#      - 🇰🇷 韩国 Oracle SUSU 3
       - '🇨🇦 加拿大 IPLC E01'
       - '🇨🇦 加拿大 IPLC E02'
       - '🇨🇦 加拿大 IPLC E03'
