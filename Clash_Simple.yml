@@ -1,5 +1,5 @@
 # CNIX & Self Built 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.12.4  18:00
+# 最后更新于  |  Latest Update ：2022.12.18  22:40
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -14,9 +14,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国 专线 KT , server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9b2f59c28.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 1, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9b2f59c28.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 2, server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9b2f59c28.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 KT , server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 Oracle 1, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 Oracle 2, server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
