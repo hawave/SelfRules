@@ -1,5 +1,5 @@
 # CNIX & Self Built 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2022.12.18  22:40
+# 最后更新于  |  Latest Update ：2023.2.12  17:20
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -14,17 +14,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国 专线 KT , server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 1, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 2, server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 6fa775379e.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 KT , server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 234bc81f83.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 Oracle 1, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 234bc81f83.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 专线 Oracle 2, server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 234bc81f83.iqiyi.com}, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 01, server: hg01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 沪港IEPL 02, server: hg02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E02, server: hk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 H1, server: nehk01.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇭🇰 香港 H2, server: nehk02.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E01, server: hkt01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 网上行 E02, server: hkt02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 油尖旺区 E01, server: hkbn01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -161,12 +157,8 @@ proxy-groups:
     proxies:
       - '🇭🇰 香港 IEPL Equinix E01'
       - '🇭🇰 香港 IEPL Equinix E02'
-      - '🇭🇰 香港 沪港IEPL 01'
-      - '🇭🇰 香港 沪港IEPL 02'
       - '🇭🇰 香港 IPLC E01'
       - '🇭🇰 香港 IPLC E02'
-      - '🇭🇰 香港 H1'
-      - '🇭🇰 香港 H2'
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 E01'
@@ -205,14 +197,13 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇰🇷 韩国 专线 KT
+      - 🇰🇷 韩国 专线 Oracle 1
+      - 🇰🇷 韩国 专线 Oracle 2
       - '🇭🇰 香港 IEPL Equinix E01'
       - '🇭🇰 香港 IEPL Equinix E02'
-      - '🇭🇰 香港 沪港IEPL 01'
-      - '🇭🇰 香港 沪港IEPL 02'
       - '🇭🇰 香港 IPLC E01'
       - '🇭🇰 香港 IPLC E02'
-      - '🇭🇰 香港 H1'
-      - '🇭🇰 香港 H2'
       - '🇭🇰 香港 油尖旺区 网上行 E01'
       - '🇭🇰 香港 油尖旺区 网上行 E02'
       - '🇭🇰 香港 油尖旺区 E01'
@@ -250,9 +241,6 @@ proxy-groups:
       - '🇩🇪 德国 H1'
       - '🇦🇺 澳大利亚 悉尼 IPLC E01'
       - '🇮🇪 爱尔兰 IPLC E01'
-      - 🇰🇷 韩国 专线 KT
-      - 🇰🇷 韩国 专线 Oracle 1
-      - 🇰🇷 韩国 专线 Oracle 2
 rules:
 # 自定义规则
     # > 机场官网
@@ -282,7 +270,9 @@ rules:
  - DOMAIN,rsshub.app,🚀 节点选择
  - DOMAIN,updates.cdn-apple.com,DIRECT
  - DOMAIN,api.steampowered.com,🎮 Steam
-
+ # - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+ - DOMAIN-SUFFIX,ctyunapi.com,DIRECT
+ 
 # DNSPod Public DNS+
  - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
  - IP-CIDR,119.29.29.29/32,DIRECT,no-resolve
