@@ -1,5 +1,5 @@
 # CNIX & Self Built 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2023.2.18  1:35
+# 最后更新于  |  Latest Update ：2023.2.18  1:55
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -14,9 +14,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国 专线 KT , server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 1, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 韩国 专线 Oracle 2, server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 首尔 Oracle, server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 春川 Oracle, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 韩国 春川 Oracle [0.5x], server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -46,8 +46,8 @@ proxies:
   - {name: 🇨🇳 台湾 宜兰 IPLC E01, server: tw21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E01, server: kr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇰🇷 韩国 IEPL E02, server: kr02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E01, server: kr11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇰🇷 韩国 全州市 商宽 E02, server: kr12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州 商宽 E01, server: kr11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
+  - {name: 🇰🇷 韩国 全州 商宽 E02, server: kr12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇬🇧 英国 伦敦 IEPL E01, server: uk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇬🇧 英国 伦敦 IEPL E02, server: uk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 01, server: ru01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -197,9 +197,9 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇰🇷 韩国 专线 KT
-      - 🇰🇷 韩国 专线 Oracle 1
-      - 🇰🇷 韩国 专线 Oracle 2
+      - 🇰🇷 韩国 首尔 Oracle
+      - 🇰🇷 韩国 春川 Oracle
+      - 🇰🇷 韩国 春川 Oracle [0.5x]
       - '🇭🇰 香港 IEPL Equinix E01'
       - '🇭🇰 香港 IEPL Equinix E02'
       - '🇭🇰 香港 IPLC E01'
@@ -229,8 +229,8 @@ proxy-groups:
       - '🇨🇳 台湾 宜兰 IPLC E01'
       - '🇰🇷 韩国 IEPL E01'
       - '🇰🇷 韩国 IEPL E02'
-      - '🇰🇷 韩国 全州市 商宽 E01'
-      - '🇰🇷 韩国 全州市 商宽 E02'
+      - '🇰🇷 韩国 全州 商宽 E01'
+      - '🇰🇷 韩国 全州 商宽 E02'
       - '🇬🇧 英国 伦敦 IEPL E01'
       - '🇬🇧 英国 伦敦 IEPL E02'
       - '🇷🇺 俄罗斯 01'
