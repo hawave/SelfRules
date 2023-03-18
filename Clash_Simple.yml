@@ -1,5 +1,5 @@
 # CNIX & Self Built 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2023.2.19  12:55
+# 最后更新于  |  Latest Update ：2023.3.18  23:35
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.eemm.me
@@ -53,10 +53,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 01, server: ru01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇷🇺 俄罗斯 02, server: ru02.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇨🇦 加拿大 IPLC E01, server: ca01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇮🇳 印度 班加罗尔 IPLC E01, server: in01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇫🇷 法国 IPLC E01, server: fr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇩🇪 德国 H1, server: ge1.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
-  - {name: 🇦🇺 澳大利亚 悉尼 IPLC E01, server: au01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇮🇪 爱尔兰 IPLC E01, server: ir01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -236,10 +234,8 @@ proxy-groups:
       - '🇷🇺 俄罗斯 01'
       - '🇷🇺 俄罗斯 02'
       - '🇨🇦 加拿大 IPLC E01'
-      - '🇮🇳 印度 班加罗尔 IPLC E01'
       - '🇫🇷 法国 IPLC E01'
       - '🇩🇪 德国 H1'
-      - '🇦🇺 澳大利亚 悉尼 IPLC E01'
       - '🇮🇪 爱尔兰 IPLC E01'
 rules:
 # 自定义规则
