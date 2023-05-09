@@ -1,5 +1,5 @@
 # CNIX & Self Built 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2023.4.8  22:05
+# 最后更新于  |  Latest Update ：2023.5.10  2:30
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.kudosune.com
@@ -15,10 +15,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: '🇰🇷 韩国 首尔 Amazon', type: ss, server: upos-hz-mirrorakam.akamaizcd.com, port: 12800, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6198bb72b892.microsoft.com}, tfo: true, udp: true}
-  - {name: '🇰🇷 韩国 首尔 SKT [3x]', type: ss, server: upos-hz-mirrorakam.akamaizcd.com, port: 12317, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6198bb72b892.microsoft.com}, tfo: true, udp: true}
-#  - {name: 🇰🇷 韩国 首尔 Oracle, server: shbgp01.22991163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
-#  - {name: 🇰🇷 韩国 春川 Oracle, server: shbgp01.22991163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
-#  - {name: '🇰🇷 韩国 春川 Oracle [0.5x]', server: shbgp01.22991163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 2b2c101640.iqiyi.com}, udp: true}
+  - {name: '🇰🇷 韩国 首尔 KT [3x]', type: ss, server: upos-hz-mirrorakam.akamaizcd.com, port: 12317, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 6198bb72b892.microsoft.com}, tfo: true, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -198,10 +195,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇰🇷 韩国 首尔 Amazon'
-      - '🇰🇷 韩国 首尔 SKT [3x]'
-#      - '🇰🇷 韩国 首尔 Oracle'
-#      - '🇰🇷 韩国 春川 Oracle'
-#      - '🇰🇷 韩国 春川 Oracle [0.5x]'
+      - '🇰🇷 韩国 首尔 KT [3x]'
       - '🇭🇰 香港 IEPL Equinix E01'
       - '🇭🇰 香港 IEPL Equinix E02'
       - '🇭🇰 香港 IPLC E01'
