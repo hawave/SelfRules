@@ -1,5 +1,5 @@
 # Clash 自编配置【简易版】  2022.6.3
-# 最后更新于  |  Latest Update ：2023.6.8  12:15
+# 最后更新于  |  Latest Update ：2023.6.8  22:30
 
 #-----------------------------------------------------------------#
 # 说明  |  Instructions : https://net.kudosune.com
@@ -17,6 +17,7 @@ proxies:
   - {name: 🇰🇷 韩国 首尔 Amazon 1, server: 7fb7776.wqatom.lol, port: 47120, type: ss, cipher: aes-128-gcm, password: 7f8ef17a96b24b8e, udp: true}
   - {name: 🇰🇷 韩国 首尔 Amazon 2, server: 7fb7776.wqatom.lol, port: 46084, type: ss, cipher: aes-128-gcm, password: 7f8ef17a96b24b8e, udp: true}
   - {name: 🇰🇷 韩国 首尔 Amazon 3, server: 7fb7776.wqatom.lol, port: 45188, type: ss, cipher: aes-128-gcm, password: 7f8ef17a96b24b8e, udp: true}
+  - {name: 🇰🇷 韩国 春川 Oracle, type: trojan, server: kr.mjt001.com, port: 443, password: 297fd722-dccb-444f-9f2e-6f2dacf329e2, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E01, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IEPL Equinix E02, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
   - {name: 🇭🇰 香港 IPLC E01, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: 0AHMJh, udp: true}
@@ -198,6 +199,7 @@ proxy-groups:
       - '🇰🇷 韩国 首尔 Amazon 1'
       - '🇰🇷 韩国 首尔 Amazon 2'
       - '🇰🇷 韩国 首尔 Amazon 3'
+      - '🇰🇷 韩国 春川 Oracle'
       - '🇭🇰 香港 IEPL Equinix E01'
       - '🇭🇰 香港 IEPL Equinix E02'
       - '🇭🇰 香港 IPLC E01'
