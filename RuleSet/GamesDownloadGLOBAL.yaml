@@ -1,70 +1,128 @@
 payload:
-  # > Steam 非中国大陆地区游戏下载/社区实况直播
-  # >> Valve
-  - DOMAIN-SUFFIX,steamcontent.com
-  # >> Edgecast
-  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
-  - DOMAIN-SUFFIX,edgecast.cdn.steampipe.steamcontent.com
-  # >> Google
-  - DOMAIN-SUFFIX,google.cdn.steampipe.steamcontent.com
-  - DOMAIN-SUFFIX,google2.cdn.steampipe.steamcontent.com
-  # >> Level3
-  - DOMAIN-SUFFIX,level3.cdn.steampipe.steamcontent.com
-  # >> 网宿(国际)
-  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
-  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
-  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
-  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
-  # >> Akamai
-  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
-  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
-  - DOMAIN-SUFFIX,steampipe.akamaized.net
-  # >> Highwinds
-  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
-  # >> Telus
-  - DOMAIN-SUFFIX,telus.cdn.steampipe.steamcontent.com
-  # >> Internode
-  - DOMAIN-SUFFIX,steam.cdn.on.net
-  # >> Orcon
-  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
-  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
-  # >> Webra
-  - DOMAIN-SUFFIX,steam.cdn.webra.ru
-  
-  
-  # > Origin 游戏下载
-  # >> CDN-Level3
-  - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
-  # >> CDN-Akamai
-  - DOMAIN-SUFFIX,origin-a.akamaihd.net
-  
-
-  # > Battle.net 战网 非中国大陆地区游戏下载
-  # >> CDN-Level3
-  - DOMAIN-SUFFIX,level3.blizzard.com
-  # >> CDN-Akamai
-  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
-  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
-  # >> CDN-Blizzard
-  - DOMAIN-SUFFIX,kr.cdn.blizzard.com
-  - DOMAIN-SUFFIX,us.cdn.blizzard.com
-  - DOMAIN-SUFFIX,eu.cdn.blizzard.com
+  # > Steam 游戏下载(国际)/社区实况直播
+    # >> Valve
+      - DOMAIN-SUFFIX,steamcontent.com
+    # >> Edgecast
+      - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+      - DOMAIN-SUFFIX,edgecast.cdn.steampipe.steamcontent.com
+    # >> Google
+      - DOMAIN-SUFFIX,google.cdn.steampipe.steamcontent.com
+      - DOMAIN-SUFFIX,google2.cdn.steampipe.steamcontent.com
+    # >> Level3
+      - DOMAIN-SUFFIX,level3.cdn.steampipe.steamcontent.com
+    # >> 网宿(国际)
+      - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+      - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+      - DOMAIN-SUFFIX,steam.ru.qtlglb.com
+      - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+    # >> Akamai
+      - DOMAIN-SUFFIX,steampipe.akamaized.net
+      - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+      - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
+      - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+      - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+      - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+      - DOMAIN-SUFFIX,steammobile.akamaized.net
+      - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+      - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+      - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+      - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+      - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+    # >> Highwinds
+      - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
+    # >> Telus
+      - DOMAIN-SUFFIX,telus.cdn.steampipe.steamcontent.com
+    # >> Internode
+      - DOMAIN-SUFFIX,steam.cdn.on.net
+    # >> Orcon
+      - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+      - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+    # >> Webra
+      - DOMAIN-SUFFIX,steam.cdn.webra.ru
 
 
-  # > Epic Games 非中国大陆地区游戏下载
-  # >> CDN-Akamai
-  - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
-  # >> CDN-Amazon
-  - DOMAIN-SUFFIX,download.epicgames.com
-  - DOMAIN-SUFFIX,download2.epicgames.com
-  - DOMAIN-SUFFIX,download3.epicgames.com
-  - DOMAIN-SUFFIX,download4.epicgames.com
+  # > Ubisoft 游戏下载(国际)
+      - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+      - DOMAIN-SUFFIX,uplaypc-s-ubisoft-ww.cdn.ubi.com
 
 
-  # > Rockstar Launcher 客户端更新/游戏更新/游戏下载
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+  # > Xbox/Microsoft Store 游戏下载(国际)
+      - DOMAIN-SUFFIX,xvcf1.xboxlive.com
+      - DOMAIN-SUFFIX,xvcf2.xboxlive.com
+      - DOMAIN-SUFFIX,assets1.xboxlive.com
+      - DOMAIN-SUFFIX,assets2.xboxlive.com
 
 
-  # > GOG 非中国大陆游戏下载/客户端更新
-  - DOMAIN-SUFFIX,cdn.gog.com
-  - DOMAIN-SUFFIX,galaxy-client-update.gog.com
+  # > EA & Origin 游戏下载(国际)
+    # >> Level3
+      - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
+    # >> Akamai
+      - DOMAIN-SUFFIX,origin-a.akamaihd.net
+
+
+  # > Battle.net 战网 游戏下载(国际)
+    # >> CloudN
+      - DOMAIN-SUFFIX,blizzard.gcdn.cloudn.co.kr
+    # >> Level3
+      - DOMAIN-SUFFIX,level3.blizzard.com
+    # >> Akamai
+      - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
+      - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
+    # >> Blizzard
+      - DOMAIN-SUFFIX,kr.cdn.blizzard.com
+      - DOMAIN-SUFFIX,us.cdn.blizzard.com
+      - DOMAIN-SUFFIX,eu.cdn.blizzard.com
+
+
+  # > Epic Games 游戏下载(国际)
+    # >> Akamai
+      - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+    # >> Amazon
+      - DOMAIN-SUFFIX,download.epicgames.com
+      - DOMAIN-SUFFIX,download2.epicgames.com
+      - DOMAIN-SUFFIX,download3.epicgames.com
+      - DOMAIN-SUFFIX,download4.epicgames.com
+    # >> Fastly
+      - DOMAIN-SUFFIX,fastly-download.epicgames.com
+
+
+  # > Rockstar Launcher 客户端更新/游戏更新/游戏下载(国际)
+      - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+
+
+  # > Riot 拳头 游戏更新/下载(国际)
+      - DOMAIN-SUFFIX,ks-foundation.secure.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,riot-client.secure.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,valorant.secure.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,bacon.secure.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,ks-foundation.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,riot-client.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,valorant.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,lol.dyn.riotcdn.net
+      - DOMAIN-SUFFIX,bacon.dyn.riotcdn.net
+
+
+  # > Bandai Namco 万代南梦宫 启动器登陆/游戏下载(国际)
+      - DOMAIN-SUFFIX,account.bandainamcoid.com
+      - DOMAIN-SUFFIX,account-api.bandainamcoid.com
+      - DOMAIN-SUFFIX,object-bnolauncher-ct.bandainamco-ol.jp
+      - DOMAIN-SUFFIX,object-bnolauncher-pf.bandainamco-ol.jp
+      - DOMAIN-SUFFIX,object-web.blue-protocol.com
+      - DOMAIN-SUFFIX,clientpatch.aws.blue-protocol.com
+      - DOMAIN-SUFFIX,clientpatch.blue-protocol.com
+      - DOMAIN-SUFFIX,g-ahpatch-prod.blue-protocol.com
+      - DOMAIN-SUFFIX,object.gundamevolution.jp
+      - DOMAIN-SUFFIX,object-web.gundamevolution.jp
+      - DOMAIN-SUFFIX,client-patch.gundamevogame.com
+
+
+  # > Bethesda 贝塞斯达 客户端更新/游戏及MOD下载(国际)
+      - DOMAIN-SUFFIX,download.cdp.bethesda.net
+      - DOMAIN-SUFFIX,content.cdp.bethesda.net
+
+
+  # > GOG 游戏下载(国际)/客户端更新
+      - DOMAIN-SUFFIX,cdn.gog.com
+      - DOMAIN-SUFFIX,galaxy-client-update.gog.com
+      - DOMAIN-SUFFIX,gog-cdn-lumen.secure2.footprint.net
