@@ -2,12 +2,12 @@
 
 Rules for [CFW](https://github.com/Fndroid/clash_for_windows_pkg/releases) or [CFA](https://github.com/Kr328/ClashForAndroid/releases). Also include some for [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) or [Quantumult X](https://apps.apple.com/app/quantumult-x/id1443988620).
 
-Still keep updating but depends on my mood.
+Updating. As I like.
 
-❗ ONLY USE BY SELF. You can NOT share without my passing. ❗
+❗ FOR PERSONAL USE ONLY. You can NOT share without my permission. ❗
 
-👉 Copy URL I gave you, paste in the URL bar of Clash, then click Download.
+👉 Keep the URL I gave you, paste and click Download/Update.
 #
-Rewritten from the rules format of the [Subscription Converter](https://sublink.dev) site. Added some self-use rules.
+Maybe some files are rewritten from the rules format of the [Subscription Converter](https://sublink.dev) site. Added some self-use rules.
 
-If you have any questions, I think you should already know how to DM me.
+Any questions can't be solved, ask me reasonably.
