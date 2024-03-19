@@ -1,5 +1,5 @@
 # Clash 自编配置【简易版】  2022.6.3
-# 最后更新  |  Latest Update ：2024.3.19  0:20
+# 最后更新  |  Latest Update ：2024.3.19  10:20
 
 #-----------------------------------------------------------------#
 #  说明  |  Instructions : https://net.kudosune.com
@@ -20,40 +20,44 @@ proxies:
   - {name: 🇸🇬 新加坡 0.2x, server: gzdata1.fc-smartglobal.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: f9a6c111e0.oss-cn-hangzhou.aliyuncs.com}, udp: true}
   - {name: 🇰🇷 韩国 春川 Oracle 1, server: shdata1.fc-smartglobal.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: f9a6c111e0.oss-cn-hangzhou.aliyuncs.com}, udp: true}
   - {name: 🇰🇷 韩国 春川 Oracle 2, server: shdata1.fc-smartglobal.xyz, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: f9a6c111e0.oss-cn-hangzhou.aliyuncs.com}, udp: true}
-  - {name: 🇭🇰 香港 IEPL 1, server: hk21.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 IEPL 2, server: hk22.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 IPLC 1, server: hk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 IPLC 2, server: hk02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 备路 1, server: hkt01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 备路 2, server: hkt02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 备路 3, server: hkbn01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇭🇰 香港 备路 4, server: hkbn02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 IEPL 1, server: jp01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 IEPL 2, server: jp02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 IPLC 1, server: jp13.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 IPLC 2, server: jp14.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 备路 1, server: jp31.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 备路 2, server: jp32.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 备路 3, server: jp19.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇯🇵 日本 备路 4, server: jp20.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL 1, server: sgp01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL 2, server: sgp02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇺🇸 美国 IEPL 1, server: us01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇺🇸 美国 IEPL 2, server: us02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇨🇳 台湾 IEPL, server: tw01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇨🇳 台湾 IPLC, server: tw11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇰🇷 韩国 IEPL 1, server: kr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇰🇷 韩国 IEPL 2, server: kr02.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇰🇷 韩国 商宽 1, server: kr11.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇰🇷 韩国 商宽 2, server: kr12.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇬🇧 英国, server: uk01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇷🇺 俄罗斯, server: ru01.ptrecord.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇨🇦 加拿大, server: ca01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇮🇳 印度, server: in01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇫🇷 法国, server: fr01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇩🇪 德国, server: ge1.amamya.live, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇦🇺 澳大利亚, server: au01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
-  - {name: 🇮🇪 爱尔兰, server: ir01.virtual-strike.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 IEPL 1, server: hk21.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 IEPL 2, server: hk22.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 IPLC 1, server: hk01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 IPLC 2, server: hk02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 1, server: hkt01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 2, server: hkt02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 3, server: hkbn01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 4, server: hkbn02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 5, server: 211.99.97.3, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 备用 6, server: 211.99.97.4, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 游戏 1, server: hkgame01.graniterapids.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇭🇰 香港 游戏 2, server: hkgame02.graniterapids.com, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 IEPL 1, server: jp01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 IEPL 2, server: jp02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 IPLC 1, server: jp13.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 IPLC 2, server: jp14.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 备用 1, server: jp31.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 备用 2, server: jp32.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 备用 3, server: jp19.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇯🇵 日本 备用 4, server: jp20.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL 1, server: sgp01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL 2, server: sgp02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇺🇸 美国 IEPL 1, server: us01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇺🇸 美国 IEPL 2, server: us02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇨🇳 台湾 IEPL, server: tw01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇨🇳 台湾 IPLC, server: tw11.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇰🇷 韩国 IEPL 1, server: kr01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇰🇷 韩国 IEPL 2, server: kr02.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇰🇷 韩国 商宽 1, server: kr11.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇰🇷 韩国 商宽 2, server: kr12.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇬🇧 英国, server: uk01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇫🇷 法国, server: fr01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇩🇪 德国, server: ge01.htz.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇷🇺 俄罗斯, server: ru01.fjk.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇨🇦 加拿大, server: ca01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇮🇳 印度, server: in01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇦🇺 澳大利亚, server: au01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
+  - {name: 🇮🇪 爱尔兰, server: ir01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: r9t44i02lu, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -156,10 +160,14 @@ proxy-groups:
       - '🇭🇰 香港 IEPL 2'
       - '🇭🇰 香港 IPLC 1'
       - '🇭🇰 香港 IPLC 2'
-      - '🇭🇰 香港 备路 1'
-      - '🇭🇰 香港 备路 2'
-      - '🇭🇰 香港 备路 3'
-      - '🇭🇰 香港 备路 4'
+      - '🇭🇰 香港 备用 1'
+      - '🇭🇰 香港 备用 2'
+      - '🇭🇰 香港 备用 3'
+      - '🇭🇰 香港 备用 4'
+      - '🇭🇰 香港 备用 5'
+      - '🇭🇰 香港 备用 6'
+      - '🇭🇰 香港 游戏 1'
+      - '🇭🇰 香港 游戏 2'
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -168,10 +176,10 @@ proxy-groups:
       - '🇯🇵 日本 IEPL 2'
       - '🇯🇵 日本 IPLC 1'
       - '🇯🇵 日本 IPLC 2'
-      - '🇯🇵 日本 备路 1'
-      - '🇯🇵 日本 备路 2'
-      - '🇯🇵 日本 备路 3'
-      - '🇯🇵 日本 备路 4'
+      - '🇯🇵 日本 备用 1'
+      - '🇯🇵 日本 备用 2'
+      - '🇯🇵 日本 备用 3'
+      - '🇯🇵 日本 备用 4'
   - name: 🇺🇸 美国节点
     type: select
     proxies:
@@ -202,18 +210,22 @@ proxy-groups:
       - '🇭🇰 香港 IEPL 2'
       - '🇭🇰 香港 IPLC 1'
       - '🇭🇰 香港 IPLC 2'
-      - '🇭🇰 香港 备路 1'
-      - '🇭🇰 香港 备路 2'
-      - '🇭🇰 香港 备路 3'
-      - '🇭🇰 香港 备路 4'
+      - '🇭🇰 香港 备用 1'
+      - '🇭🇰 香港 备用 2'
+      - '🇭🇰 香港 备用 3'
+      - '🇭🇰 香港 备用 4'
+      - '🇭🇰 香港 备用 5'
+      - '🇭🇰 香港 备用 6'
+      - '🇭🇰 香港 游戏 1'
+      - '🇭🇰 香港 游戏 2'
       - '🇯🇵 日本 IEPL 1'
       - '🇯🇵 日本 IEPL 2'
       - '🇯🇵 日本 IPLC 1'
       - '🇯🇵 日本 IPLC 2'
-      - '🇯🇵 日本 备路 1'
-      - '🇯🇵 日本 备路 2'
-      - '🇯🇵 日本 备路 3'
-      - '🇯🇵 日本 备路 4'
+      - '🇯🇵 日本 备用 1'
+      - '🇯🇵 日本 备用 2'
+      - '🇯🇵 日本 备用 3'
+      - '🇯🇵 日本 备用 4'
       - '🇸🇬 新加坡 IEPL 1' 
       - '🇸🇬 新加坡 IEPL 2' 
       - '🇺🇸 美国 IEPL 1'
@@ -225,18 +237,17 @@ proxy-groups:
       - '🇰🇷 韩国 商宽 1'
       - '🇰🇷 韩国 商宽 2'
       - '🇬🇧 英国'
+      - '🇫🇷 法国'
+      - '🇩🇪 德国'
       - '🇷🇺 俄罗斯'
       - '🇨🇦 加拿大'
       - '🇮🇳 印度'
-      - '🇫🇷 法国'
-      - '🇩🇪 德国'
       - '🇦🇺 澳大利亚'
       - '🇮🇪 爱尔兰'
 rules:
 # 自定义规则
     # > 机场官网
  - DOMAIN,管人痴.com,🚀 节点选择
- - DOMAIN-SUFFIX,tagss01.pro,🚀 节点选择
  - DOMAIN-SUFFIX,flowercloud.net,🚀 节点选择
  - DOMAIN-SUFFIX,flower.yt,🚀 节点选择
     # > 学校官网 & 无线网
@@ -254,13 +265,24 @@ rules:
  - DOMAIN-SUFFIX,pikpak.kinh.cc,DIRECT
     # > OTHERS
  - DOMAIN,www.nfmovies.com,DIRECT
- - DOMAIN,steamdb.info,🚀 节点选择
+#  - DOMAIN,steamdb.info,🚀 节点选择
  - DOMAIN-KEYWORD,rutracker,🚀 节点选择
  - DOMAIN,rsshub.app,🚀 节点选择
  - DOMAIN,updates.cdn-apple.com,DIRECT
  - DOMAIN,api.steampowered.com,🎮 Steam
  - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
  - DOMAIN-SUFFIX,ctyunapi.com,DIRECT
+ - DOMAIN-SUFFIX,bytemastatic.com,DIRECT
+ - DOMAIN-SUFFIX,byteoversea.com.com,DIRECT
+#  - DOMAIN-SUFFIX,aweme.snssdk.com,DIRECT
+ - DOMAIN-SUFFIX,snssdk.com,DIRECT
+ - DOMAIN-SUFFIX,playstation.com,🚀 节点选择
+ - DOMAIN-SUFFIX,playstation.net,🚀 节点选择
+ - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🚀 节点选择
+ - DOMAIN-SUFFIX,sony.com,🚀 节点选择
+ - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
+ - DOMAIN-SUFFIX,my.1password.com,DIRECT
+ - DOMAIN-SUFFIX,click.justwatch.com,🚀 节点选择
 
 # Local Area Network
  - DOMAIN-SUFFIX,local,DIRECT
