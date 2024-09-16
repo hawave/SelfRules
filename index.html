@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages File Viewer</title>
+</head>
+<body>
+    <h1>File Content from GitHub Repository</h1>
+    <pre id="file-content">Loading...</pre>
+
+    <script>
+        // 要加载的文件在仓库中的路径
+        const filePath = 'Clash_Simple.yml';  // 替换成你文件的路径
+        const githubRepo = 'https://raw.githubusercontent.com/hawave/SelfRules/main/';
+
+        // 自定义请求头
+        const headers = new Headers({
+            'subscription-userinfo': 'upload=0; download=0; total=219902325555; expire=1729189440'});
+
+        // 获取文件内容的函数
+        async function fetchFileContent() {
+            try {
+                const response = await fetch(githubRepo + filePath, { headers });
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const text = await response.text();
+                document.getElementById('file-content').textContent = text;
+            } catch (error) {
+                document.getElementById('file-content').textContent = 'Failed to load file content: ' + error.message;
+            }
+        }
+
+        // 调用函数
+        fetchFileContent();
+    </script>
+</body>
+</html>
