@@ -1,0 +1,23 @@
+## 利用 GitHub Actions 定时更新节点订阅中的使用信息及过期时间 ##
+
+name: update_subscription_userinfo
+
+# 三种触发方式：1.push代码；2.手动点击运行按钮；3.每小时的【0分 & 30分】自动运行。
+on:
+  # push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0,30 * * * *'
+
+# on:
+#   schedule:
+#     - cron: '*/5 * * * *' # 每5分钟一次，测试用
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
+    steps:
+      - name: 'Checkout the codes' # 步骤一，获取仓库代码
+        uses: actions/checkout@v1
+      - name: 'Run update_headers.sh' # 步骤二，执行sh命令文件
+        run: npm install && npm run update_headers # 运行目录是仓库根目录
