@@ -1,5 +1,5 @@
 # Clash 自编配置【简易版】  2022.6.3
-# 最后更新  |  Latest Update ：2024.11.15  14:40
+# 最后更新  |  Latest Update ：2024.12.16  0:30
 
 #-----------------------------------------------------------------#
 #  说明  |  Instructions : https://net.kudosune.com
@@ -14,12 +14,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 0.2x, server: gzdata1.fc-smartglobal.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
-  - {name: 🇯🇵 日本 0.2x, server: shdata1.fc-smartglobal.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
-  - {name: 🇺🇸 美国 0.2x, server: shdata1.fc-smartglobal.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
-  - {name: 🇸🇬 新加坡 0.2x, server: gzdata1.fc-smartglobal.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
-  - {name: 🇰🇷 韩国 春川 Oracle 1, server: shdata1.fc-smartglobal.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
-  - {name: 🇰🇷 韩国 春川 Oracle 2, server: shdata1.fc-smartglobal.xyz, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e6cf7b8068.m.ctrip.com}, udp: true}
+  - {name: 🇭🇰 香港 0.2x, server: gzdata1.fc-smartglobal.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
+  - {name: 🇯🇵 日本 0.2x, server: shdata1.fc-smartglobal.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
+  - {name: 🇺🇸 美国 0.2x, server: shdata1.fc-smartglobal.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
+  - {name: 🇸🇬 新加坡 0.2x, server: gzdata1.fc-smartglobal.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
+  - {name: 🇰🇷 韩国 春川 Oracle 1, server: shdata1.fc-smartglobal.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
+  - {name: 🇰🇷 韩国 春川 Oracle 2, server: shdata1.fc-smartglobal.xyz, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 6359d28a36.m.ctrip.com}, udp: true}
   - {name: 🇭🇰 香港 IEPL 1, server: hk21.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
   - {name: 🇭🇰 香港 IEPL 2, server: hk22.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
   - {name: 🇭🇰 香港 IPLC 1, server: hk01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
