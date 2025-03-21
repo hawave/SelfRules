@@ -14,7 +14,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 0.2x, server: sg.76681f9610f175c6.com, port: 25409, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
+  - {name: 🇭🇰 香港 0.2x, server: sg.76681f9610f175c6.com, port: 24509, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
   - {name: 🇯🇵 日本 0.2x, server: sg.76681f9610f175c6.com, port: 24523, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
   - {name: 🇺🇸 美国 0.3x, server: sg.76681f9610f175c6.com, port: 24550, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
   - {name: 🇸🇬 新加坡 0.2x, server: sg.76681f9610f175c6.com, port: 24541, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
