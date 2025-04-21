@@ -1,5 +1,5 @@
 # Clash 自编配置【简易版】  2022.6.3
-# 最后更新  |  Latest Update ：2025.4.9  14:30
+# 最后更新  |  Latest Update ：2025.4.21  18:00
 
 #-----------------------------------------------------------------#
 #  说明  |  Instructions : https://net.kudosune.com
@@ -14,13 +14,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 0.2x, server: sg.76681f9610f175c6.com, port: 24509, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇯🇵 日本 0.2x, server: sg.76681f9610f175c6.com, port: 24523, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇺🇸 美国 0.3x, server: sg.76681f9610f175c6.com, port: 24550, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇸🇬 新加坡 0.2x, server: sg.76681f9610f175c6.com, port: 24541, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇰🇷 韩国 01, server: sg.76681f9610f175c6.com, port: 24524, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇰🇷 韩国 02, server: sg.76681f9610f175c6.com, port: 24525, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
-  - {name: 🇰🇷 韩国 家宽 2x, server: sg.76681f9610f175c6.com, port: 24535, type: ss, cipher: aes-128-gcm, password: e7bb8049-614d-435a-a10d-70c126f63e1b, udp: true}
+  - {name: 🇭🇰 香港 0.2x, server: gzdata1.233netcloud.com, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
+  - {name: 🇯🇵 日本 0.2x, server: shdata1.233netcloud.com, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
+  - {name: 🇸🇬 新加坡 0.2x, server: gzdata1.233netcloud.com, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
+  - {name: 🇺🇸 美国 0.2x, server: shdata1.233netcloud.com, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
+  - {name: 🇰🇷 韩国 首尔 1, server: shdata1.233netcloud.com, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
+  - {name: 🇰🇷 韩国 首尔 2, server: shdata1.233netcloud.com, port: 11072, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obs, plugin-opts: {mode: http, host: 55e44c967e.m.ctrip.com}, udp: true}
   - {name: 🇭🇰 香港 IEPL 1, server: hk21.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
   - {name: 🇭🇰 香港 IEPL 2, server: hk22.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
   - {name: 🇭🇰 香港 IPLC 1, server: hk01.ctg.wtf, port: 7951, type: ss, cipher: rc4-md5, password: dttd2rwj0k, udp: true}
@@ -184,7 +183,7 @@ proxy-groups:
   - name: 🇺🇸 美国节点
     type: select
     proxies:
-      - '🇺🇸 美国 0.3x'
+      - '🇺🇸 美国 0.2x'
       - '🇺🇸 美国 IEPL 1'
       - '🇺🇸 美国 IEPL 2'
   - name: 🇸🇬 狮城节点
@@ -203,11 +202,10 @@ proxy-groups:
     proxies:
       - '🇭🇰 香港 0.2x'
       - '🇯🇵 日本 0.2x'
-      - '🇺🇸 美国 0.3x'
+      - '🇺🇸 美国 0.2x'
       - '🇸🇬 新加坡 0.2x'
-      - '🇰🇷 韩国 01'
-      - '🇰🇷 韩国 02'
-      - '🇰🇷 韩国 家宽 2x'
+      - '🇰🇷 韩国 首尔 1'
+      - '🇰🇷 韩国 首尔 2'
       - '🇭🇰 香港 IEPL 1'
       - '🇭🇰 香港 IEPL 2'
       - '🇭🇰 香港 IPLC 1'
